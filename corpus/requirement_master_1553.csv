@@ -1,0 +1,1554 @@
+﻿Type,Mapping ID,Zone_Area,Entity,Sub Entity,Endpoint A,Endpoint B,Edge Label,Document,Standard,Requirement ID,Source_Area,Mapped_Count
+Node,N-0001,Z1: EV Domain,EV-Internal,CAN Bus,,,,NIST IR 8473,NIST,AC-1,EV,6
+Node,N-0002,Z1: EV Domain,EV-Internal,CAN Bus,,,,NIST IR 8473,NIST,AC-5,EV,6
+Node,N-0003,Z1: EV Domain,EV-Internal,CAN Bus,,,,NIST IR 8473,NIST,MA-1,EV,6
+Node,N-0004,Z1: EV Domain,EV-Internal,CAN Bus,,,,NIST IR 8473,NIST,PT-1,EV,6
+Node,N-0005,Z1: EV Domain,EV-Internal,CAN Bus,,,,NIST IR 8473,NIST,PT-2,EV,6
+Node,N-0006,Z1: EV Domain,EV-Internal,CAN Bus,,,,NIST IR 8473,NIST,CM-2,EV,6
+Node,N-0007,Z1: EV Domain,EV-Internal,BMS,,,,NIST IR 8473,NIST,AC-2,EV,5
+Node,N-0008,Z1: EV Domain,EV-Internal,BMS,,,,NIST IR 8473,NIST,AC-5,EV,5
+Node,N-0009,Z1: EV Domain,EV-Internal,BMS,,,,NIST IR 8473,NIST,AE-3,EV,5
+Node,N-0010,Z1: EV Domain,EV-Internal,BMS,,,,NIST IR 8473,NIST,CM-1,EV,5
+Node,N-0011,Z1: EV Domain,EV-Internal,BMS,,,,NIST IR 8473,NIST,CM-2,EV,5
+Node,N-0012,Z1: EV Domain,EV-Internal,Head-Unit,,,,NIST IR 8473,NIST,AC-2,EV,5
+Node,N-0013,Z1: EV Domain,EV-Internal,Head-Unit,,,,NIST IR 8473,NIST,AC-5,EV,5
+Node,N-0014,Z1: EV Domain,EV-Internal,Head-Unit,,,,NIST IR 8473,NIST,PT-2,EV,5
+Node,N-0015,Z1: EV Domain,EV-Internal,Head-Unit,,,,NIST IR 8473,NIST,CM-2,EV,5
+Node,N-0016,Z1: EV Domain,EV-Internal,Head-Unit,,,,NIST IR 8473,NIST,CM-8,EV,5
+Node,N-0017,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,NIST IR 8473,NIST,DS-6,EV,25
+Node,N-0018,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-01,,25
+Node,N-0019,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-02,,25
+Node,N-0020,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-03,,25
+Node,N-0021,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-04,,25
+Node,N-0022,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-05,,25
+Node,N-0023,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-16,,25
+Node,N-0024,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-17,,25
+Node,N-0025,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-18,,25
+Node,N-0026,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-19,,25
+Node,N-0027,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-20,,25
+Node,N-0028,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-21,,25
+Node,N-0029,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-22,,25
+Node,N-0030,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-33,,25
+Node,N-0031,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-34,,25
+Node,N-0032,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-35,,25
+Node,N-0033,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-36,,25
+Node,N-0034,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-38,,25
+Node,N-0035,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-39,,25
+Node,N-0036,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-40,,25
+Node,N-0037,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-41,,25
+Node,N-0038,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-44,,25
+Node,N-0039,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-45,,25
+Node,N-0040,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-47,,25
+Node,N-0041,Z1: EV Domain,EV-Internal,EV-Internal (general recommendation),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-48,,25
+Node,N-0042,Z1: EV Domain,EV-Internal,OBD-II,,,,NIST IR 8473,NIST,PT-2,EV,1
+Node,N-0043,Z1: EV Domain,EV-Internal,Sensors,,,,NIST IR 8473,NIST,AE-3,EV,4
+Node,N-0044,Z1: EV Domain,EV-Internal,Sensors,,,,NIST IR 8473,NIST,CM-1,EV,4
+Node,N-0045,Z1: EV Domain,EV-Internal,Sensors,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-43,,4
+Node,N-0046,Z1: EV Domain,EV-Internal,Sensors,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-46,,4
+Node,N-0047,Z1: EV Domain,EV-Internal,Telematics Unit,,,,NIST IR 8473,NIST,CM-1,EV,3
+Node,N-0048,Z1: EV Domain,EV-Internal,Telematics Unit,,,,NIST IR 8473,NIST,CM-2,EV,3
+Node,N-0049,Z1: EV Domain,EV-Internal,Telematics Unit,,,,NIST IR 8473,NIST,CM-8,EV,3
+Node,N-0050,Z1: EV Domain,EV-Internal,ECU,,,,NIST IR 8473,NIST,CM-2,EV,1
+Node,N-0051,Z1: EV Domain,EV-Internal,GNSS/GPS,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-37,,2
+Node,N-0052,Z1: EV Domain,EV-Internal,GNSS/GPS,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-42,,2
+Node,N-0053,Z1: EV Domain,EV-Internal,Cellular Modem,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-43,,1
+Node,N-0054,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,AM-4,EV,200
+Node,N-0055,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,BE-4,EV,200
+Node,N-0056,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,RA-1,EV,200
+Node,N-0057,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,RA-2,EV,200
+Node,N-0058,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,AC-3,EV,200
+Node,N-0059,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,AC-6,EV,200
+Node,N-0060,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,AC-7,EV,200
+Node,N-0061,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,DS-4,EV,200
+Node,N-0062,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,DS-8,EV,200
+Node,N-0063,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,IP-2,EV,200
+Node,N-0064,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,IP-3,EV,200
+Node,N-0065,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,IP-5,EV,200
+Node,N-0066,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,IP-12,EV,200
+Node,N-0067,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,CM-7,EV,200
+Node,N-0068,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,AN-2,EV,200
+Node,N-0069,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,AN-5,EV,200
+Node,N-0070,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,MI-3,EV,200
+Node,N-0071,Z1: EV Domain,EVCC,EVCC (general),,,,NIST IR 8473,NIST,CO-3,EV,200
+Node,N-0072,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-014,,200
+Node,N-0073,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-016,,200
+Node,N-0074,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-019,,200
+Node,N-0075,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-719,,200
+Node,N-0076,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-720,,200
+Node,N-0077,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2249,,200
+Node,N-0078,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2256,,200
+Node,N-0079,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2258,,200
+Node,N-0080,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2265,,200
+Node,N-0081,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2267,,200
+Node,N-0082,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2269,,200
+Node,N-0083,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2271,,200
+Node,N-0084,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1242,,200
+Node,N-0085,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1239,,200
+Node,N-0086,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-045,,200
+Node,N-0087,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-046,,200
+Node,N-0088,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-052,,200
+Node,N-0089,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2363,,200
+Node,N-0090,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2609,,200
+Node,N-0091,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2364,,200
+Node,N-0092,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2366,,200
+Node,N-0093,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2367,,200
+Node,N-0094,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2372,,200
+Node,N-0095,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2384,,200
+Node,N-0096,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2409,,200
+Node,N-0097,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1240,,200
+Node,N-0098,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2410,,200
+Node,N-0099,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2423,,200
+Node,N-0100,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2424,,200
+Node,N-0101,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2459,,200
+Node,N-0102,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1858,,200
+Node,N-0103,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1860,,200
+Node,N-0104,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1637,,200
+Node,N-0105,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1638,,200
+Node,N-0106,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1639,,200
+Node,N-0107,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1663,,200
+Node,N-0108,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1664,,200
+Node,N-0109,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1669,,200
+Node,N-0110,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1670,,200
+Node,N-0111,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1671,,200
+Node,N-0112,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1675,,200
+Node,N-0113,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1676,,200
+Node,N-0114,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1677,,200
+Node,N-0115,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2054,,200
+Node,N-0116,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2056,,200
+Node,N-0117,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2060,,200
+Node,N-0118,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2062,,200
+Node,N-0119,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2063,,200
+Node,N-0120,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2068,,200
+Node,N-0121,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-077,,200
+Node,N-0122,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2481,,200
+Node,N-0123,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2678,,200
+Node,N-0124,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2511,,200
+Node,N-0125,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2274,,200
+Node,N-0126,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2278,,200
+Node,N-0127,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2281,,200
+Node,N-0128,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-167,,200
+Node,N-0129,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1839,,200
+Node,N-0130,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4000,,200
+Node,N-0131,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1765,,200
+Node,N-0132,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2636,,200
+Node,N-0133,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2556,,200
+Node,N-0134,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2557,,200
+Node,N-0135,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2637,,200
+Node,N-0136,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2639,,200
+Node,N-0137,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2559,,200
+Node,N-0138,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1194,,200
+Node,N-0139,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2642,,200
+Node,N-0140,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2175,,200
+Node,N-0141,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2122,,200
+Node,N-0142,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2123,,200
+Node,N-0143,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1068,,200
+Node,N-0144,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2648,,200
+Node,N-0145,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2649,,200
+Node,N-0146,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2572,,200
+Node,N-0147,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2573,,200
+Node,N-0148,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2574,,200
+Node,N-0149,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2706,,200
+Node,N-0150,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2707,,200
+Node,N-0151,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1081,,200
+Node,N-0152,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-776,,200
+Node,N-0153,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-5008,,200
+Node,N-0154,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-5012,,200
+Node,N-0155,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-5019,,200
+Node,N-0156,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4013,,200
+Node,N-0157,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4015,,200
+Node,N-0158,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2681,,200
+Node,N-0159,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2682,,200
+Node,N-0160,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1648,,200
+Node,N-0161,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1649,,200
+Node,N-0162,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-298,,200
+Node,N-0163,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1562,,200
+Node,N-0164,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1563,,200
+Node,N-0165,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1565,,200
+Node,N-0166,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1340,,200
+Node,N-0167,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2162,,200
+Node,N-0168,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1368,,200
+Node,N-0169,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1369,,200
+Node,N-0170,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2124,,200
+Node,N-0171,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2125,,200
+Node,N-0172,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2668,,200
+Node,N-0173,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2669,,200
+Node,N-0174,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2183,,200
+Node,N-0175,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2184,,200
+Node,N-0176,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2186,,200
+Node,N-0177,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1292,,200
+Node,N-0178,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1294,,200
+Node,N-0179,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2679,,200
+Node,N-0180,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2680,,200
+Node,N-0181,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2671,,200
+Node,N-0182,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2672,,200
+Node,N-0183,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1460,,200
+Node,N-0184,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1597,,200
+Node,N-0185,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-5023,,200
+Node,N-0186,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-5060,,200
+Node,N-0187,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-5064,,200
+Node,N-0188,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-5068,,200
+Node,N-0189,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-434,,200
+Node,N-0190,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-436,,200
+Node,N-0191,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-437,,200
+Node,N-0192,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-438,,200
+Node,N-0193,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-439,,200
+Node,N-0194,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1499,,200
+Node,N-0195,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1501,,200
+Node,N-0196,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-5069,,200
+Node,N-0197,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4020,,200
+Node,N-0198,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2295,,200
+Node,N-0199,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2298,,200
+Node,N-0200,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-710,,200
+Node,N-0201,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1397,,200
+Node,N-0202,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1398,,200
+Node,N-0203,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1399,,200
+Node,N-0204,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1400,,200
+Node,N-0205,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-706,,200
+Node,N-0206,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1401,,200
+Node,N-0207,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1615,,200
+Node,N-0208,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1311,,200
+Node,N-0209,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1390,,200
+Node,N-0210,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2113,,200
+Node,N-0211,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2116,,200
+Node,N-0212,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2117,,200
+Node,N-0213,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1391,,200
+Node,N-0214,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1393,,200
+Node,N-0215,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1394,,200
+Node,N-0216,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-930,,200
+Node,N-0217,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-848,,200
+Node,N-0218,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-912,,200
+Node,N-0219,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-913,,200
+Node,N-0220,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1380,,200
+Node,N-0221,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2119,,200
+Node,N-0222,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1381,,200
+Node,N-0223,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1383,,200
+Node,N-0224,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1138,,200
+Node,N-0225,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4022,,200
+Node,N-0226,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-734,,200
+Node,N-0227,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-735,,200
+Node,N-0228,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2201,,200
+Node,N-0229,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1944,,200
+Node,N-0230,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1953,,200
+Node,N-0231,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1954,,200
+Node,N-0232,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1413,,200
+Node,N-0233,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1414,,200
+Node,N-0234,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1416,,200
+Node,N-0235,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1621,,200
+Node,N-0236,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1967,,200
+Node,N-0237,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1968,,200
+Node,N-0238,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-2220,,200
+Node,N-0239,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4025,,200
+Node,N-0240,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4027,,200
+Node,N-0241,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4028,,200
+Node,N-0242,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4039,,200
+Node,N-0243,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4040,,200
+Node,N-0244,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4041,,200
+Node,N-0245,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4042,,200
+Node,N-0246,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-4043,,200
+Node,N-0247,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1746,,200
+Node,N-0248,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1577,,200
+Node,N-0249,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1578,,200
+Node,N-0250,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1579,,200
+Node,N-0251,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1581,,200
+Node,N-0252,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1582,,200
+Node,N-0253,Z1: EV Domain,EVCC,EVCC (general),,,,ISO 15118-20,ISO,V2G20-1584,,200
+Node,N-0254,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2339,,89
+Node,N-0255,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-024,,89
+Node,N-0256,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-025,,89
+Node,N-0257,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-717,,89
+Node,N-0258,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1227,,89
+Node,N-0259,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1679,,89
+Node,N-0260,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2465,,89
+Node,N-0261,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2027,,89
+Node,N-0262,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2034,,89
+Node,N-0263,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2035,,89
+Node,N-0264,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2036,,89
+Node,N-0265,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2039,,89
+Node,N-0266,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2040,,89
+Node,N-0267,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2046,,89
+Node,N-0268,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2047,,89
+Node,N-0269,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2049,,89
+Node,N-0270,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-079,,89
+Node,N-0271,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2505,,89
+Node,N-0272,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2508,,89
+Node,N-0273,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2531,,89
+Node,N-0274,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2532,,89
+Node,N-0275,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1039,,89
+Node,N-0276,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2132,,89
+Node,N-0277,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4107,,89
+Node,N-0278,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5126,,89
+Node,N-0279,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-173,,89
+Node,N-0280,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1022,,89
+Node,N-0281,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2541,,89
+Node,N-0282,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1243,,89
+Node,N-0283,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2618,,89
+Node,N-0284,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1540,,89
+Node,N-0285,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1197,,89
+Node,N-0286,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2071,,89
+Node,N-0287,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1199,,89
+Node,N-0288,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2073,,89
+Node,N-0289,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5046,,89
+Node,N-0290,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2615,,89
+Node,N-0291,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2558,,89
+Node,N-0292,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1808,,89
+Node,N-0293,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4016,,89
+Node,N-0294,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1564,,89
+Node,N-0295,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1568,,89
+Node,N-0296,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-447,,89
+Node,N-0297,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-448,,89
+Node,N-0298,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-449,,89
+Node,N-0299,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-700,,89
+Node,N-0300,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-704,,89
+Node,N-0301,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1463,,89
+Node,N-0302,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-728,,89
+Node,N-0303,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1617,,89
+Node,N-0304,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-847,,89
+Node,N-0305,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1956,,89
+Node,N-0306,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1196,,89
+Node,N-0307,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1960,,89
+Node,N-0308,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2644,,89
+Node,N-0309,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1964,,89
+Node,N-0310,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1965,,89
+Node,N-0311,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1651,,89
+Node,N-0312,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1652,,89
+Node,N-0313,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5080,,89
+Node,N-0314,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5081,,89
+Node,N-0315,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4030,,89
+Node,N-0316,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4031,,89
+Node,N-0317,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4032,,89
+Node,N-0318,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4033,,89
+Node,N-0319,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4034,,89
+Node,N-0320,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4035,,89
+Node,N-0321,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4036,,89
+Node,N-0322,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4037,,89
+Node,N-0323,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4038,,89
+Node,N-0324,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4079,,89
+Node,N-0325,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4044,,89
+Node,N-0326,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1747,,89
+Node,N-0327,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1749,,89
+Node,N-0328,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1476,,89
+Node,N-0329,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1480,,89
+Node,N-0330,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-1462,,89
+Node,N-0331,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5042,,89
+Node,N-0332,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5067,,89
+Node,N-0333,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5055,,89
+Node,N-0334,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5054,,89
+Node,N-0335,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5062,,89
+Node,N-0336,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5057,,89
+Node,N-0337,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5061,,89
+Node,N-0338,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5058,,89
+Node,N-0339,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-5040,,89
+Node,N-0340,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4055,,89
+Node,N-0341,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-4056,,89
+Node,N-0342,Z1: EV Domain,EVCC,EVCC Session Manager,,,,ISO 15118-20,ISO,V2G20-2092,,89
+Node,N-0343,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2341,,19
+Node,N-0344,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2342,,19
+Node,N-0345,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2698,,19
+Node,N-0346,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2505,,19
+Node,N-0347,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2506,,19
+Node,N-0348,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2507,,19
+Node,N-0349,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2508,,19
+Node,N-0350,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2509,,19
+Node,N-0351,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2510,,19
+Node,N-0352,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2517,,19
+Node,N-0353,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2518,,19
+Node,N-0354,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2523,,19
+Node,N-0355,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1550,,19
+Node,N-0356,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2571,,19
+Node,N-0357,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2578,,19
+Node,N-0358,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1808,,19
+Node,N-0359,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1568,,19
+Node,N-0360,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2107,,19
+Node,N-0361,Z1: EV Domain,EVCC,EVCC PnC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1576,,19
+Node,N-0362,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2342,,11
+Node,N-0363,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2698,,11
+Node,N-0364,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2514,,11
+Node,N-0365,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2515,,11
+Node,N-0366,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2516,,11
+Node,N-0367,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2517,,11
+Node,N-0368,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2518,,11
+Node,N-0369,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2533,,11
+Node,N-0370,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2534,,11
+Node,N-0371,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-1548,,11
+Node,N-0372,Z1: EV Domain,EVCC,EVCC OEM Cert,,,,ISO 15118-20,ISO,V2G20-2708,,11
+Node,N-0373,Z1: EV Domain,EVCC,EVCC TLS Client,,,,ISO 15118-20,ISO,V2G20-2362,,5
+Node,N-0374,Z1: EV Domain,EVCC,EVCC TLS Client,,,,ISO 15118-20,ISO,V2G20-2365,,5
+Node,N-0375,Z1: EV Domain,EVCC,EVCC TLS Client,,,,ISO 15118-20,ISO,V2G20-2039,,5
+Node,N-0376,Z1: EV Domain,EVCC,EVCC TLS Client,,,,ISO 15118-20,ISO,V2G20-2058,,5
+Node,N-0377,Z1: EV Domain,EVCC,EVCC TLS Client,,,,ISO 15118-20,ISO,V2G20-2289,,5
+Node,N-0378,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2698,,18
+Node,N-0379,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2505,,18
+Node,N-0380,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2506,,18
+Node,N-0381,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2507,,18
+Node,N-0382,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2508,,18
+Node,N-0383,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2509,,18
+Node,N-0384,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2510,,18
+Node,N-0385,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2518,,18
+Node,N-0386,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2523,,18
+Node,N-0387,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2525,,18
+Node,N-0388,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2533,,18
+Node,N-0389,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2534,,18
+Node,N-0390,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2684,,18
+Node,N-0391,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-1548,,18
+Node,N-0392,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2578,,18
+Node,N-0393,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-1808,,18
+Node,N-0394,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-1568,,18
+Node,N-0395,Z1: EV Domain,EVCC,EVCC Key Storage,,,,ISO 15118-20,ISO,V2G20-2596,,18
+Node,N-0396,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2337,,37
+Node,N-0397,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2345,,37
+Node,N-0398,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2346,,37
+Node,N-0399,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2348,,37
+Node,N-0400,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2357,,37
+Node,N-0401,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2405,,37
+Node,N-0402,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2438,,37
+Node,N-0403,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2439,,37
+Node,N-0404,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2440,,37
+Node,N-0405,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2443,,37
+Node,N-0406,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2050,,37
+Node,N-0407,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2051,,37
+Node,N-0408,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2057,,37
+Node,N-0409,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1533,,37
+Node,N-0410,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1541,,37
+Node,N-0411,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2630,,37
+Node,N-0412,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2564,,37
+Node,N-0413,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1553,,37
+Node,N-0414,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2580,,37
+Node,N-0415,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-904,,37
+Node,N-0416,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2203,,37
+Node,N-0417,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2204,,37
+Node,N-0418,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2206,,37
+Node,N-0419,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2207,,37
+Node,N-0420,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2210,,37
+Node,N-0421,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2217,,37
+Node,N-0422,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2218,,37
+Node,N-0423,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1972,,37
+Node,N-0424,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1973,,37
+Node,N-0425,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1975,,37
+Node,N-0426,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2223,,37
+Node,N-0427,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1976,,37
+Node,N-0428,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2225,,37
+Node,N-0429,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1978,,37
+Node,N-0430,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2131,,37
+Node,N-0431,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-1979,,37
+Node,N-0432,Z2: XFC/EVSE Domain,SECC,SECC Cert Handler,,,,ISO 15118-20,ISO,V2G20-2584,,37
+Node,N-0433,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2337,,25
+Node,N-0434,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2348,,25
+Node,N-0435,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-030,,25
+Node,N-0436,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-031,,25
+Node,N-0437,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-032,,25
+Node,N-0438,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-033,,25
+Node,N-0439,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-034,,25
+Node,N-0440,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2374,,25
+Node,N-0441,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2375,,25
+Node,N-0442,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2443,,25
+Node,N-0443,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-1678,,25
+Node,N-0444,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-1680,,25
+Node,N-0445,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2462,,25
+Node,N-0446,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2024,,25
+Node,N-0447,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2028,,25
+Node,N-0448,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2033,,25
+Node,N-0449,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2050,,25
+Node,N-0450,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2051,,25
+Node,N-0451,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2053,,25
+Node,N-0452,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2065,,25
+Node,N-0453,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2066,,25
+Node,N-0454,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-1541,,25
+Node,N-0455,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2630,,25
+Node,N-0456,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2553,,25
+Node,N-0457,Z2: XFC/EVSE Domain,SECC,SECC TLS Server,,,,ISO 15118-20,ISO,V2G20-2303,,25
+Node,N-0458,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2346,,13
+Node,N-0459,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2348,,13
+Node,N-0460,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2357,,13
+Node,N-0461,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2376,,13
+Node,N-0462,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2377,,13
+Node,N-0463,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2385,,13
+Node,N-0464,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2405,,13
+Node,N-0465,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2433,,13
+Node,N-0466,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2434,,13
+Node,N-0467,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2440,,13
+Node,N-0468,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2460,,13
+Node,N-0469,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-1668,,13
+Node,N-0470,Z2: XFC/EVSE Domain,SECC,Private SECC,,,,ISO 15118-20,ISO,V2G20-2597,,13
+Node,N-0471,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-721,,200
+Node,N-0472,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-026,,200
+Node,N-0473,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-027,,200
+Node,N-0474,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-723,,200
+Node,N-0475,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-029,,200
+Node,N-0476,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1776,,200
+Node,N-0477,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1777,,200
+Node,N-0478,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-726,,200
+Node,N-0479,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-727,,200
+Node,N-0480,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2610,,200
+Node,N-0481,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2446,,200
+Node,N-0482,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2458,,200
+Node,N-0483,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1856,,200
+Node,N-0484,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1857,,200
+Node,N-0485,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1634,,200
+Node,N-0486,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1665,,200
+Node,N-0487,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1666,,200
+Node,N-0488,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1667,,200
+Node,N-0489,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2461,,200
+Node,N-0490,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1672,,200
+Node,N-0491,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1673,,200
+Node,N-0492,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1674,,200
+Node,N-0493,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1523,,200
+Node,N-0494,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2611,,200
+Node,N-0495,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2612,,200
+Node,N-0496,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2031,,200
+Node,N-0497,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2032,,200
+Node,N-0498,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2055,,200
+Node,N-0499,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2059,,200
+Node,N-0500,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2061,,200
+Node,N-0501,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-078,,200
+Node,N-0502,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-080,,200
+Node,N-0503,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2275,,200
+Node,N-0504,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2276,,200
+Node,N-0505,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2279,,200
+Node,N-0506,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-126,,200
+Node,N-0507,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-134,,200
+Node,N-0508,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-135,,200
+Node,N-0509,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-136,,200
+Node,N-0510,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-138,,200
+Node,N-0511,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-139,,200
+Node,N-0512,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1254,,200
+Node,N-0513,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-141,,200
+Node,N-0514,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-142,,200
+Node,N-0515,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-144,,200
+Node,N-0516,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-145,,200
+Node,N-0517,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-146,,200
+Node,N-0518,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-150,,200
+Node,N-0519,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-151,,200
+Node,N-0520,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1255,,200
+Node,N-0521,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-153,,200
+Node,N-0522,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-154,,200
+Node,N-0523,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-156,,200
+Node,N-0524,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-157,,200
+Node,N-0525,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-158,,200
+Node,N-0526,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-160,,200
+Node,N-0527,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-161,,200
+Node,N-0528,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2284,,200
+Node,N-0529,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2286,,200
+Node,N-0530,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2287,,200
+Node,N-0531,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2288,,200
+Node,N-0532,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2290,,200
+Node,N-0533,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2291,,200
+Node,N-0534,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2292,,200
+Node,N-0535,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2293,,200
+Node,N-0536,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4100,,200
+Node,N-0537,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4101,,200
+Node,N-0538,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4102,,200
+Node,N-0539,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4103,,200
+Node,N-0540,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4104,,200
+Node,N-0541,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-168,,200
+Node,N-0542,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1529,,200
+Node,N-0543,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1531,,200
+Node,N-0544,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1532,,200
+Node,N-0545,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1534,,200
+Node,N-0546,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1536,,200
+Node,N-0547,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-751,,200
+Node,N-0548,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-752,,200
+Node,N-0549,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2620,,200
+Node,N-0550,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2106,,200
+Node,N-0551,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2621,,200
+Node,N-0552,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1061,,200
+Node,N-0553,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1198,,200
+Node,N-0554,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2631,,200
+Node,N-0555,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2551,,200
+Node,N-0556,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2552,,200
+Node,N-0557,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2632,,200
+Node,N-0558,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2634,,200
+Node,N-0559,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2554,,200
+Node,N-0560,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1219,,200
+Node,N-0561,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1220,,200
+Node,N-0562,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2096,,200
+Node,N-0563,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2566,,200
+Node,N-0564,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2567,,200
+Node,N-0565,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2568,,200
+Node,N-0566,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2565,,200
+Node,N-0567,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1200,,200
+Node,N-0568,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1544,,200
+Node,N-0569,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2121,,200
+Node,N-0570,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1069,,200
+Node,N-0571,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1080,,200
+Node,N-0572,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-902,,200
+Node,N-0573,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1833,,200
+Node,N-0574,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1083,,200
+Node,N-0575,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2105,,200
+Node,N-0576,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1555,,200
+Node,N-0577,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1556,,200
+Node,N-0578,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5004,,200
+Node,N-0579,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5006,,200
+Node,N-0580,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5050,,200
+Node,N-0581,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5016,,200
+Node,N-0582,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5065,,200
+Node,N-0583,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5017,,200
+Node,N-0584,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5018,,200
+Node,N-0585,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4017,,200
+Node,N-0586,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4018,,200
+Node,N-0587,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4019,,200
+Node,N-0588,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1640,,200
+Node,N-0589,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-773,,200
+Node,N-0590,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1561,,200
+Node,N-0591,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1011,,200
+Node,N-0592,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1012,,200
+Node,N-0593,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1567,,200
+Node,N-0594,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2130,,200
+Node,N-0595,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1870,,200
+Node,N-0596,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5079,,200
+Node,N-0597,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1209,,200
+Node,N-0598,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1830,,200
+Node,N-0599,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1826,,200
+Node,N-0600,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1366,,200
+Node,N-0601,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1210,,200
+Node,N-0602,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2661,,200
+Node,N-0603,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1827,,200
+Node,N-0604,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2181,,200
+Node,N-0605,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2182,,200
+Node,N-0606,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2185,,200
+Node,N-0607,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2187,,200
+Node,N-0608,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2188,,200
+Node,N-0609,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1290,,200
+Node,N-0610,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2662,,200
+Node,N-0611,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1464,,200
+Node,N-0612,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1931,,200
+Node,N-0613,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1932,,200
+Node,N-0614,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2663,,200
+Node,N-0615,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2664,,200
+Node,N-0616,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2665,,200
+Node,N-0617,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5059,,200
+Node,N-0618,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-430,,200
+Node,N-0619,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-435,,200
+Node,N-0620,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-441,,200
+Node,N-0621,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-442,,200
+Node,N-0622,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-443,,200
+Node,N-0623,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-444,,200
+Node,N-0624,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-445,,200
+Node,N-0625,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1500,,200
+Node,N-0626,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1502,,200
+Node,N-0627,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5070,,200
+Node,N-0628,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4021,,200
+Node,N-0629,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-715,,200
+Node,N-0630,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2300,,200
+Node,N-0631,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-716,,200
+Node,N-0632,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-712,,200
+Node,N-0633,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1632,,200
+Node,N-0634,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1385,,200
+Node,N-0635,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2118,,200
+Node,N-0636,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1386,,200
+Node,N-0637,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-858,,200
+Node,N-0638,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1317,,200
+Node,N-0639,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-860,,200
+Node,N-0640,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-861,,200
+Node,N-0641,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-862,,200
+Node,N-0642,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-863,,200
+Node,N-0643,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-864,,200
+Node,N-0644,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1408,,200
+Node,N-0645,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-916,,200
+Node,N-0646,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-917,,200
+Node,N-0647,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-918,,200
+Node,N-0648,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-919,,200
+Node,N-0649,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-920,,200
+Node,N-0650,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-921,,200
+Node,N-0651,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-736,,200
+Node,N-0652,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2202,,200
+Node,N-0653,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-459,,200
+Node,N-0654,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1618,,200
+Node,N-0655,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1990,,200
+Node,N-0656,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-5056,,200
+Node,N-0657,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1009,,200
+Node,N-0658,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2645,,200
+Node,N-0659,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1089,,200
+Node,N-0660,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2658,,200
+Node,N-0661,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1481,,200
+Node,N-0662,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-538,,200
+Node,N-0663,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-1482,,200
+Node,N-0664,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-2222,,200
+Node,N-0665,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4057,,200
+Node,N-0666,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4060,,200
+Node,N-0667,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4061,,200
+Node,N-0668,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4062,,200
+Node,N-0669,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4064,,200
+Node,N-0670,Z2: XFC/EVSE Domain,SECC,SECC (general),,,,ISO 15118-20,ISO,V2G20-4065,,200
+Node,N-0671,Z2: XFC/EVSE Domain,SECC,Public SECC,,,,ISO 15118-20,ISO,V2G20-2432,,2
+Node,N-0672,Z2: XFC/EVSE Domain,SECC,Public SECC,,,,ISO 15118-20,ISO,V2G20-2439,,2
+Node,N-0673,Z2: XFC/EVSE Domain,SECC,SECC Firewall,,,,ISO 15118-20,ISO,V2G20-1524,,1
+Node,N-0674,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,AM-3,XFC/EVSE,54
+Node,N-0675,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,BE-2,XFC/EVSE,54
+Node,N-0676,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,AC-7,XFC/EVSE,54
+Node,N-0677,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,AT-1,XFC/EVSE,54
+Node,N-0678,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,DS-2,XFC/EVSE,54
+Node,N-0679,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,IP-2,XFC/EVSE,54
+Node,N-0680,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,IP-5,XFC/EVSE,54
+Node,N-0681,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,IP-12,XFC/EVSE,54
+Node,N-0682,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,MA-2,XFC/EVSE,54
+Node,N-0683,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,PT-2,XFC/EVSE,54
+Node,N-0684,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,PT-4,XFC/EVSE,54
+Node,N-0685,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,AE-3,XFC/EVSE,54
+Node,N-0686,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,CM-7,XFC/EVSE,54
+Node,N-0687,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,AN-2,XFC/EVSE,54
+Node,N-0688,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,AN-5,XFC/EVSE,54
+Node,N-0689,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,NIST IR 8473,NIST,MI-3,XFC/EVSE,54
+Node,N-0690,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.203,,54
+Node,N-0691,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.302,,54
+Node,N-0692,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.311,,54
+Node,N-0693,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.319,,54
+Node,N-0694,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.402,,54
+Node,N-0695,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.406,,54
+Node,N-0696,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.414,,54
+Node,N-0697,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.422,,54
+Node,N-0698,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.427,,54
+Node,N-0699,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.428,,54
+Node,N-0700,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.513,,54
+Node,N-0701,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.601,,54
+Node,N-0702,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.801,,54
+Node,N-0703,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A00.FR.804,,54
+Node,N-0704,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A01.FR.06,,54
+Node,N-0705,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A01.FR.11,,54
+Node,N-0706,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.01,,54
+Node,N-0707,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.02,,54
+Node,N-0708,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.03,,54
+Node,N-0709,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.05,,54
+Node,N-0710,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.07,,54
+Node,N-0711,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.15,,54
+Node,N-0712,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.16,,54
+Node,N-0713,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.18,,54
+Node,N-0714,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A02.FR.21,,54
+Node,N-0715,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.01,,54
+Node,N-0716,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.02,,54
+Node,N-0717,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.03,,54
+Node,N-0718,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.05,,54
+Node,N-0719,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.06,,54
+Node,N-0720,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.07,,54
+Node,N-0721,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.15,,54
+Node,N-0722,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.16,,54
+Node,N-0723,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A03.FR.18,,54
+Node,N-0724,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A05.FR.04,,54
+Node,N-0725,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A05.FR.05,,54
+Node,N-0726,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A05.FR.08,,54
+Node,N-0727,Z2: XFC/EVSE Domain,EVSE,Charging Station (general),,,,OCPP 2.0.1,OCPP,A05.FR.09,,54
+Node,N-0728,Z2: XFC/EVSE Domain,EVSE,Meter,,,,NIST IR 8473,NIST,AM-4,XFC/EVSE,5
+Node,N-0729,Z2: XFC/EVSE Domain,EVSE,Meter,,,,NIST IR 8473,NIST,AC-1,XFC/EVSE,5
+Node,N-0730,Z2: XFC/EVSE Domain,EVSE,Meter,,,,NIST IR 8473,NIST,PT-1,XFC/EVSE,5
+Node,N-0731,Z2: XFC/EVSE Domain,EVSE,Meter,,,,NIST IR 8473,NIST,CM-6,XFC/EVSE,5
+Node,N-0732,Z2: XFC/EVSE Domain,EVSE,Meter,,,,NIST IR 8473,NIST,CM-8,XFC/EVSE,5
+Node,N-0733,Z2: XFC/EVSE Domain,EVSE,Connector,,,,NIST IR 8473,NIST,RA-1,XFC/EVSE,1
+Node,N-0734,Z2: XFC/EVSE Domain,EVSE,Connector/Cable,,,,NIST IR 8473,NIST,RA-1,XFC/EVSE,3
+Node,N-0735,Z2: XFC/EVSE Domain,EVSE,Connector/Cable,,,,NIST IR 8473,NIST,AC-6,XFC/EVSE,3
+Node,N-0736,Z2: XFC/EVSE Domain,EVSE,Connector/Cable,,,,NIST IR 8473,NIST,CO-3,XFC/EVSE,3
+Node,N-0737,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,NIST IR 8473,NIST,AC-1,XFC/EVSE,44
+Node,N-0738,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,A00.FR.604,,44
+Node,N-0739,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.04,,44
+Node,N-0740,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.05,,44
+Node,N-0741,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.06,,44
+Node,N-0742,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.07,,44
+Node,N-0743,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.08,,44
+Node,N-0744,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.12,,44
+Node,N-0745,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.13,,44
+Node,N-0746,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.14,,44
+Node,N-0747,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.15,,44
+Node,N-0748,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.16,,44
+Node,N-0749,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.21,,44
+Node,N-0750,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.22,,44
+Node,N-0751,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.23,,44
+Node,N-0752,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.25,,44
+Node,N-0753,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.26,,44
+Node,N-0754,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.27,,44
+Node,N-0755,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.28,,44
+Node,N-0756,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.29,,44
+Node,N-0757,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.30,,44
+Node,N-0758,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.31,,44
+Node,N-0759,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.32,,44
+Node,N-0760,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.33,,44
+Node,N-0761,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L01.FR.34,,44
+Node,N-0762,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.02,,44
+Node,N-0763,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.03,,44
+Node,N-0764,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.04,,44
+Node,N-0765,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.05,,44
+Node,N-0766,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.07,,44
+Node,N-0767,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.08,,44
+Node,N-0768,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.09,,44
+Node,N-0769,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.10,,44
+Node,N-0770,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.16,,44
+Node,N-0771,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.17,,44
+Node,N-0772,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.18,,44
+Node,N-0773,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.19,,44
+Node,N-0774,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.20,,44
+Node,N-0775,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.21,,44
+Node,N-0776,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.22,,44
+Node,N-0777,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L02.FR.23,,44
+Node,N-0778,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L03.FR.10,,44
+Node,N-0779,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L03.FR.11,,44
+Node,N-0780,Z2: XFC/EVSE Domain,EVSE,CS Firmware,,,,OCPP 2.0.1,OCPP,L04.FR.04,,44
+Node,N-0781,Z2: XFC/EVSE Domain,EVSE,CS Security Profile,,,,OCPP 2.0.1,OCPP,A00.FR.005,,3
+Node,N-0782,Z2: XFC/EVSE Domain,EVSE,CS Security Profile,,,,OCPP 2.0.1,OCPP,A01.FR.10,,3
+Node,N-0783,Z2: XFC/EVSE Domain,EVSE,CS Security Profile,,,,OCPP 2.0.1,OCPP,A05.FR.10,,3
+Node,N-0784,Z2: XFC/EVSE Domain,EVSE,CS WebSocket Client,,,,OCPP 2.0.1,OCPP,A02.FR.08,,2
+Node,N-0785,Z2: XFC/EVSE Domain,EVSE,CS WebSocket Client,,,,OCPP 2.0.1,OCPP,A03.FR.08,,2
+Node,N-0786,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,AM-6,Cloud/Third-Party,42
+Node,N-0787,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,BE-3,Cloud/Third-Party,42
+Node,N-0788,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,BE-4,Cloud/Third-Party,42
+Node,N-0789,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,GV-2,Cloud/Third-Party,42
+Node,N-0790,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,RA-1,Cloud/Third-Party,42
+Node,N-0791,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,RA-4,Cloud/Third-Party,42
+Node,N-0792,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,AC-3,Cloud/Third-Party,42
+Node,N-0793,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,AC-4,Cloud/Third-Party,42
+Node,N-0794,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,AC-5,Cloud/Third-Party,42
+Node,N-0795,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,AC-6,Cloud/Third-Party,42
+Node,N-0796,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,AC-7,Cloud/Third-Party,42
+Node,N-0797,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,DS-6,Cloud/Third-Party,42
+Node,N-0798,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,IP-2,Cloud/Third-Party,42
+Node,N-0799,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,IP-3,Cloud/Third-Party,42
+Node,N-0800,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,IP-5,Cloud/Third-Party,42
+Node,N-0801,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,IP-12,Cloud/Third-Party,42
+Node,N-0802,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,PT-1,Cloud/Third-Party,42
+Node,N-0803,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,PT-4,Cloud/Third-Party,42
+Node,N-0804,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,AE-1,Cloud/Third-Party,42
+Node,N-0805,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,CM-1,Cloud/Third-Party,42
+Node,N-0806,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,CM-2,Cloud/Third-Party,42
+Node,N-0807,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,NIST IR 8473,NIST,MI-3,Cloud/Third-Party,42
+Node,N-0808,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.306,,42
+Node,N-0809,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.307,,42
+Node,N-0810,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.318,,42
+Node,N-0811,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.409,,42
+Node,N-0812,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.410,,42
+Node,N-0813,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.421,,42
+Node,N-0814,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.510,,42
+Node,N-0815,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.701,,42
+Node,N-0816,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A00.FR.705,,42
+Node,N-0817,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A01.FR.08,,42
+Node,N-0818,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A02.FR.11,,42
+Node,N-0819,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A02.FR.12,,42
+Node,N-0820,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A02.FR.14,,42
+Node,N-0821,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A03.FR.11,,42
+Node,N-0822,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A03.FR.12,,42
+Node,N-0823,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A03.FR.14,,42
+Node,N-0824,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,A04.FR.03,,42
+Node,N-0825,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,OCPP 2.0.1,OCPP,L01.FR.11,,42
+Node,N-0826,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-49,,42
+Node,N-0827,Z3: Cloud/Third-Party,CSMS,CSMS (general),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-50,,42
+Node,N-0828,Z3: Cloud/Third-Party,CSMS,Cloud Service,,,,NIST IR 8473,NIST,IP-6,Cloud/Third-Party,1
+Node,N-0829,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2248,,11
+Node,N-0830,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2250,,11
+Node,N-0831,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2252,,11
+Node,N-0832,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2262,,11
+Node,N-0833,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2264,,11
+Node,N-0834,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2266,,11
+Node,N-0835,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2268,,11
+Node,N-0836,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2270,,11
+Node,N-0837,Z3: Cloud/Third-Party,CSMS,CSO,,,,ISO 15118-20,ISO,V2G20-2086,,11
+Node,N-0838,Z3: Cloud/Third-Party,CSMS,CSO,,,,OCPP 2.0.1,OCPP,A00.FR.404,,11
+Node,N-0839,Z3: Cloud/Third-Party,CSMS,CSO,,,,OCPP 2.0.1,OCPP,A00.FR.803,,11
+Node,N-0840,Z3: Cloud/Third-Party,CSMS,CSMS Logging,,,,OCPP 2.0.1,OCPP,A00.FR.408,,1
+Node,N-0841,Z3: Cloud/Third-Party,CSMS,CSMS API,,,,OCPP 2.0.1,OCPP,L03.FR.01,,1
+Node,N-0842,Z3: Cloud/Third-Party,CSMS,Local Controller,,,,OCPP 2.0.1,OCPP,L03.FR.01,,1
+Node,N-0843,Z3: Cloud/Third-Party,eMSP,eMSP Backend,,,,ISO 15118-20,ISO,V2G20-2480,,6
+Node,N-0844,Z3: Cloud/Third-Party,eMSP,eMSP Backend,,,,ISO 15118-20,ISO,V2G20-2490,,6
+Node,N-0845,Z3: Cloud/Third-Party,eMSP,eMSP Backend,,,,ISO 15118-20,ISO,V2G20-2500,,6
+Node,N-0846,Z3: Cloud/Third-Party,eMSP,eMSP Backend,,,,ISO 15118-20,ISO,V2G20-2595,,6
+Node,N-0847,Z3: Cloud/Third-Party,eMSP,eMSP Backend,,,,ISO 15118-20,ISO,V2G20-2520,,6
+Node,N-0848,Z3: Cloud/Third-Party,eMSP,eMSP Backend,,,,ISO 15118-20,ISO,V2G20-2524,,6
+Node,N-0849,Z3: Cloud/Third-Party,eMSP,CPS,,,,ISO 15118-20,ISO,V2G20-2490,,4
+Node,N-0850,Z3: Cloud/Third-Party,eMSP,CPS,,,,ISO 15118-20,ISO,V2G20-2496,,4
+Node,N-0851,Z3: Cloud/Third-Party,eMSP,CPS,,,,ISO 15118-20,ISO,V2G20-2522,,4
+Node,N-0852,Z3: Cloud/Third-Party,eMSP,CPS,,,,ISO 15118-20,ISO,V2G20-1077,,4
+Node,N-0853,Z3: Cloud/Third-Party,eMSP,Mobile App,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-23,,1
+Node,N-0854,Z3: Cloud/Third-Party,eMSP,OTA Server,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-23,,1
+Node,N-0855,Z3: Cloud/Third-Party,eMSP,eMSP/External (general),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-24,,4
+Node,N-0856,Z3: Cloud/Third-Party,eMSP,eMSP/External (general),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-25,,4
+Node,N-0857,Z3: Cloud/Third-Party,eMSP,eMSP/External (general),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-26,,4
+Node,N-0858,Z3: Cloud/Third-Party,eMSP,eMSP/External (general),,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-27,,4
+Node,N-0859,Cross-Zone: Trust Infrastructure,PKI,Sub-CA,,,,ISO 15118-20,ISO,V2G20-911,,8
+Node,N-0860,Cross-Zone: Trust Infrastructure,PKI,Sub-CA,,,,ISO 15118-20,ISO,V2G20-2449,,8
+Node,N-0861,Cross-Zone: Trust Infrastructure,PKI,Sub-CA,,,,ISO 15118-20,ISO,V2G20-2454,,8
+Node,N-0862,Cross-Zone: Trust Infrastructure,PKI,Sub-CA,,,,ISO 15118-20,ISO,V2G20-2592,,8
+Node,N-0863,Cross-Zone: Trust Infrastructure,PKI,Sub-CA,,,,ISO 15118-20,ISO,V2G20-2593,,8
+Node,N-0864,Cross-Zone: Trust Infrastructure,PKI,Sub-CA,,,,ISO 15118-20,ISO,V2G20-2599,,8
+Node,N-0865,Cross-Zone: Trust Infrastructure,PKI,Sub-CA,,,,ISO 15118-20,ISO,V2G20-2600,,8
+Node,N-0866,Cross-Zone: Trust Infrastructure,PKI,Sub-CA,,,,ISO 15118-20,ISO,V2G20-2606,,8
+Node,N-0867,Cross-Zone: Trust Infrastructure,PKI,OEM Root CA,,,,ISO 15118-20,ISO,V2G20-2331,,6
+Node,N-0868,Cross-Zone: Trust Infrastructure,PKI,OEM Root CA,,,,ISO 15118-20,ISO,V2G20-2332,,6
+Node,N-0869,Cross-Zone: Trust Infrastructure,PKI,OEM Root CA,,,,ISO 15118-20,ISO,V2G20-2333,,6
+Node,N-0870,Cross-Zone: Trust Infrastructure,PKI,OEM Root CA,,,,ISO 15118-20,ISO,V2G20-2334,,6
+Node,N-0871,Cross-Zone: Trust Infrastructure,PKI,OEM Root CA,,,,ISO 15118-20,ISO,V2G20-2449,,6
+Node,N-0872,Cross-Zone: Trust Infrastructure,PKI,OEM Root CA,,,,ISO 15118-20,ISO,V2G20-2454,,6
+Node,N-0873,Cross-Zone: Trust Infrastructure,PKI,V2G Root CA,,,,ISO 15118-20,ISO,V2G20-2331,,6
+Node,N-0874,Cross-Zone: Trust Infrastructure,PKI,V2G Root CA,,,,ISO 15118-20,ISO,V2G20-2332,,6
+Node,N-0875,Cross-Zone: Trust Infrastructure,PKI,V2G Root CA,,,,ISO 15118-20,ISO,V2G20-2333,,6
+Node,N-0876,Cross-Zone: Trust Infrastructure,PKI,V2G Root CA,,,,ISO 15118-20,ISO,V2G20-2334,,6
+Node,N-0877,Cross-Zone: Trust Infrastructure,PKI,V2G Root CA,,,,ISO 15118-20,ISO,V2G20-2449,,6
+Node,N-0878,Cross-Zone: Trust Infrastructure,PKI,V2G Root CA,,,,ISO 15118-20,ISO,V2G20-2454,,6
+Node,N-0879,Cross-Zone: Trust Infrastructure,PKI,OCSP Responder,,,,ISO 15118-20,ISO,V2G20-2332,,6
+Node,N-0880,Cross-Zone: Trust Infrastructure,PKI,OCSP Responder,,,,ISO 15118-20,ISO,V2G20-2334,,6
+Node,N-0881,Cross-Zone: Trust Infrastructure,PKI,OCSP Responder,,,,ISO 15118-20,ISO,V2G20-2448,,6
+Node,N-0882,Cross-Zone: Trust Infrastructure,PKI,OCSP Responder,,,,ISO 15118-20,ISO,V2G20-2449,,6
+Node,N-0883,Cross-Zone: Trust Infrastructure,PKI,OCSP Responder,,,,ISO 15118-20,ISO,V2G20-2582,,6
+Node,N-0884,Cross-Zone: Trust Infrastructure,PKI,OCSP Responder,,,,ISO 15118-20,ISO,V2G20-2604,,6
+Node,N-0885,Cross-Zone: Trust Infrastructure,PKI,PKI (general),,,,ISO 15118-20,ISO,V2G20-2335,,5
+Node,N-0886,Cross-Zone: Trust Infrastructure,PKI,PKI (general),,,,ISO 15118-20,ISO,V2G20-2350,,5
+Node,N-0887,Cross-Zone: Trust Infrastructure,PKI,PKI (general),,,,ISO 15118-20,ISO,V2G20-2351,,5
+Node,N-0888,Cross-Zone: Trust Infrastructure,PKI,PKI (general),,,,ISO 15118-20,ISO,V2G20-867,,5
+Node,N-0889,Cross-Zone: Trust Infrastructure,PKI,PKI (general),,,,ISO 15118-20,ISO,V2G20-2683,,5
+Node,N-0890,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2453,,10
+Node,N-0891,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2454,,10
+Node,N-0892,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2696,,10
+Node,N-0893,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2592,,10
+Node,N-0894,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2593,,10
+Node,N-0895,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2599,,10
+Node,N-0896,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2600,,10
+Node,N-0897,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2601,,10
+Node,N-0898,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2602,,10
+Node,N-0899,Cross-Zone: Trust Infrastructure,PKI,CRL Distribution Point,,,,ISO 15118-20,ISO,V2G20-2606,,10
+Node,N-0900,Cross-Zone: Communication Infrastructure,Wireless,RADIUS Server,,,,ISO 15118-20,ISO,V2G20-2245,,2
+Node,N-0901,Cross-Zone: Communication Infrastructure,Wireless,RADIUS Server,,,,ISO 15118-20,ISO,V2G20-2246,,2
+Node,N-0902,Cross-Zone: Communication Infrastructure,Wireless,EV WLAN STA,,,,ISO 15118-20,ISO,V2G20-2253,,1
+Node,N-0903,Cross-Zone: Communication Infrastructure,Wireless,WPA3 Module,,,,ISO 15118-20,ISO,V2G20-2253,,1
+Node,N-0904,Z2: XFC/EVSE Domain,EVSE-Internal,BESS,,,,NIST IR 8473,NIST,AC-2,XFC/EVSE,4
+Node,N-0905,Z2: XFC/EVSE Domain,EVSE-Internal,BESS,,,,NIST IR 8473,NIST,AC-3,XFC/EVSE,4
+Node,N-0906,Z2: XFC/EVSE Domain,EVSE-Internal,BESS,,,,NIST IR 8473,NIST,AC-4,XFC/EVSE,4
+Node,N-0907,Z2: XFC/EVSE Domain,EVSE-Internal,BESS,,,,NIST IR 8473,NIST,AC-5,XFC/EVSE,4
+Node,N-0908,Z2: XFC/EVSE Domain,EVSE-Internal,Cooling System,,,,NIST IR 8473,NIST,DS-8,XFC/EVSE,2
+Node,N-0909,Z2: XFC/EVSE Domain,EVSE-Internal,Cooling System,,,,NIST IR 8473,NIST,CM-2,XFC/EVSE,2
+Node,N-0910,Z2: XFC/EVSE Domain,EVSE-Internal,Safety System,,,,NIST IR 8473,NIST,DS-8,XFC/EVSE,2
+Node,N-0911,Z2: XFC/EVSE Domain,EVSE-Internal,Safety System,,,,NIST IR 8473,NIST,CM-2,XFC/EVSE,2
+Node,N-0912,Z2: XFC/EVSE Domain,EVSE-Internal,Power Module,,,,NIST IR 8473,NIST,CM-2,XFC/EVSE,1
+Node,N-0913,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,AM-3,Utility/BMS,14
+Node,N-0914,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,AM-4,Utility/BMS,14
+Node,N-0915,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,BE-3,Utility/BMS,14
+Node,N-0916,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,BE-4,Utility/BMS,14
+Node,N-0917,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,GV-2,Utility/BMS,14
+Node,N-0918,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,RA-4,Utility/BMS,14
+Node,N-0919,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,AC-3,Utility/BMS,14
+Node,N-0920,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,AC-5,Utility/BMS,14
+Node,N-0921,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,AC-6,Utility/BMS,14
+Node,N-0922,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,AT-5,Utility/BMS,14
+Node,N-0923,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,DS-6,Utility/BMS,14
+Node,N-0924,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,IP-3,Utility/BMS,14
+Node,N-0925,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,IP-5,Utility/BMS,14
+Node,N-0926,Z4: Utility/Grid,Utility,DER,,,,NIST IR 8473,NIST,PT-1,Utility/BMS,14
+Node,N-0927,Z4: Utility/Grid,Utility,SCADA,,,,NIST IR 8473,NIST,AM-3,Utility/BMS,1
+Node,N-0928,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,AM-4,Utility/BMS,10
+Node,N-0929,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,BE-3,Utility/BMS,10
+Node,N-0930,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,BE-4,Utility/BMS,10
+Node,N-0931,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,GV-2,Utility/BMS,10
+Node,N-0932,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,AC-1,Utility/BMS,10
+Node,N-0933,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,AC-3,Utility/BMS,10
+Node,N-0934,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,AC-5,Utility/BMS,10
+Node,N-0935,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,AC-6,Utility/BMS,10
+Node,N-0936,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,AC-7,Utility/BMS,10
+Node,N-0937,Z4: Utility/Grid,Utility,Building EMS,,,,NIST IR 8473,NIST,AT-5,Utility/BMS,10
+Node,N-0938,Z4: Utility/Grid,Utility,Grid Breaker,,,,NIST IR 8473,NIST,DS-6,Utility/BMS,3
+Node,N-0939,Z4: Utility/Grid,Utility,Grid Breaker,,,,NIST IR 8473,NIST,DS-8,Utility/BMS,3
+Node,N-0940,Z4: Utility/Grid,Utility,Grid Breaker,,,,NIST IR 8473,NIST,CM-2,Utility/BMS,3
+Node,N-0941,Z4: Utility/Grid,Utility,Utility (general),,,,NIST IR 8473,NIST,IP-12,Utility/BMS,1
+Edge,E-0004,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1231,,197
+Edge,E-0005,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2673,,197
+Edge,E-0006,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2318,,197
+Edge,E-0007,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2674,,197
+Edge,E-0008,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2319,,197
+Edge,E-0009,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2320,,197
+Edge,E-0010,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2321,,197
+Edge,E-0011,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2675,,197
+Edge,E-0012,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2322,,197
+Edge,E-0013,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-926,,197
+Edge,E-0014,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2323,,197
+Edge,E-0015,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1234,,197
+Edge,E-0016,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1004,,197
+Edge,E-0017,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1003,,197
+Edge,E-0018,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1005,,197
+Edge,E-0019,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1002,,197
+Edge,E-0020,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1853,,197
+Edge,E-0021,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1001,,197
+Edge,E-0022,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2324,,197
+Edge,E-0023,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2325,,197
+Edge,E-0024,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2581,,197
+Edge,E-0025,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2340,,197
+Edge,E-0026,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2343,,197
+Edge,E-0027,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1238,,197
+Edge,E-0028,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1235,,197
+Edge,E-0029,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2646,,197
+Edge,E-0030,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1237,,197
+Edge,E-0031,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2356,,197
+Edge,E-0032,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1013,,197
+Edge,E-0033,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1014,,197
+Edge,E-0034,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-835,,197
+Edge,E-0035,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2607,,197
+Edge,E-0036,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2608,,197
+Edge,E-0037,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-018,,197
+Edge,E-0038,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1804,,197
+Edge,E-0039,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-035,,197
+Edge,E-0040,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1015,,197
+Edge,E-0041,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2241,,197
+Edge,E-0042,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2242,,197
+Edge,E-0043,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2244,,197
+Edge,E-0044,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2255,,197
+Edge,E-0045,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1244,,197
+Edge,E-0046,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1017,,197
+Edge,E-0047,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1245,,197
+Edge,E-0048,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1241,,197
+Edge,E-0049,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-041,,197
+Edge,E-0050,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-042,,197
+Edge,E-0051,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1518,,197
+Edge,E-0052,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1519,,197
+Edge,E-0053,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-047,,197
+Edge,E-0054,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-049,,197
+Edge,E-0055,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-050,,197
+Edge,E-0056,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-051,,197
+Edge,E-0057,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1263,,197
+Edge,E-0058,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-055,,197
+Edge,E-0059,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-057,,197
+Edge,E-0060,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-059,,197
+Edge,E-0061,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2134,,197
+Edge,E-0062,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2135,,197
+Edge,E-0063,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-060,,197
+Edge,E-0064,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-062,,197
+Edge,E-0065,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-063,,197
+Edge,E-0066,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-064,,197
+Edge,E-0067,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2358,,197
+Edge,E-0068,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-065,,197
+Edge,E-0069,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1264,,197
+Edge,E-0070,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1521,,197
+Edge,E-0071,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2359,,197
+Edge,E-0072,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2360,,197
+Edge,E-0073,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2361,,197
+Edge,E-0074,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2371,,197
+Edge,E-0075,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1007,,197
+Edge,E-0076,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2378,,197
+Edge,E-0077,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2379,,197
+Edge,E-0078,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2380,,197
+Edge,E-0079,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2381,,197
+Edge,E-0080,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2382,,197
+Edge,E-0081,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2383,,197
+Edge,E-0082,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2386,,197
+Edge,E-0083,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2387,,197
+Edge,E-0084,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2388,,197
+Edge,E-0085,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2389,,197
+Edge,E-0086,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2390,,197
+Edge,E-0087,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2391,,197
+Edge,E-0088,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2392,,197
+Edge,E-0089,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2393,,197
+Edge,E-0090,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2394,,197
+Edge,E-0091,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2395,,197
+Edge,E-0092,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2398,,197
+Edge,E-0093,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2399,,197
+Edge,E-0094,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2400,,197
+Edge,E-0095,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2401,,197
+Edge,E-0096,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2402,,197
+Edge,E-0097,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2406,,197
+Edge,E-0098,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2407,,197
+Edge,E-0099,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2408,,197
+Edge,E-0100,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2411,,197
+Edge,E-0101,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2412,,197
+Edge,E-0102,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2413,,197
+Edge,E-0103,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2414,,197
+Edge,E-0104,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2415,,197
+Edge,E-0105,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2416,,197
+Edge,E-0106,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2417,,197
+Edge,E-0107,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2418,,197
+Edge,E-0108,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2419,,197
+Edge,E-0109,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2421,,197
+Edge,E-0110,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2422,,197
+Edge,E-0111,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2426,,197
+Edge,E-0112,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2427,,197
+Edge,E-0113,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2428,,197
+Edge,E-0114,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2429,,197
+Edge,E-0115,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2430,,197
+Edge,E-0116,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2431,,197
+Edge,E-0117,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2441,,197
+Edge,E-0118,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2442,,197
+Edge,E-0119,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1612,,197
+Edge,E-0120,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2677,,197
+Edge,E-0121,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1525,,197
+Edge,E-0122,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1527,,197
+Edge,E-0123,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2470,,197
+Edge,E-0124,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2021,,197
+Edge,E-0125,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2023,,197
+Edge,E-0126,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2025,,197
+Edge,E-0127,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2026,,197
+Edge,E-0128,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2029,,197
+Edge,E-0129,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2705,,197
+Edge,E-0130,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2037,,197
+Edge,E-0131,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2042,,197
+Edge,E-0132,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2043,,197
+Edge,E-0133,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2044,,197
+Edge,E-0134,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2045,,197
+Edge,E-0135,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2064,,197
+Edge,E-0136,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2067,,197
+Edge,E-0137,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2069,,197
+Edge,E-0138,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2070,,197
+Edge,E-0139,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-073,,197
+Edge,E-0140,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-075,,197
+Edge,E-0141,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-081,,197
+Edge,E-0142,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-082,,197
+Edge,E-0143,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-083,,197
+Edge,E-0144,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-084,,197
+Edge,E-0145,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-085,,197
+Edge,E-0146,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-086,,197
+Edge,E-0147,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2307,,197
+Edge,E-0148,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1229,,197
+Edge,E-0149,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-089,,197
+Edge,E-0150,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-090,,197
+Edge,E-0151,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-092,,197
+Edge,E-0152,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-094,,197
+Edge,E-0153,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-096,,197
+Edge,E-0154,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-800,,197
+Edge,E-0155,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-097,,197
+Edge,E-0156,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1020,,197
+Edge,E-0157,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2308,,197
+Edge,E-0158,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2309,,197
+Edge,E-0159,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-4106,,197
+Edge,E-0160,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-5125,,197
+Edge,E-0161,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-099,,197
+Edge,E-0162,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-100,,197
+Edge,E-0163,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2310,,197
+Edge,E-0164,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-600,,197
+Edge,E-0165,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2311,,197
+Edge,E-0166,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-108,,197
+Edge,E-0167,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-117,,197
+Edge,E-0168,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-119,,197
+Edge,E-0169,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-764,,197
+Edge,E-0170,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-765,,197
+Edge,E-0171,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-766,,197
+Edge,E-0172,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-767,,197
+Edge,E-0173,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-1449,,197
+Edge,E-0174,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2473,,197
+Edge,E-0175,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2474,,197
+Edge,E-0176,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2475,,197
+Edge,E-0177,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2476,,197
+Edge,E-0178,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-771,,197
+Edge,E-0179,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2312,,197
+Edge,E-0180,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2313,,197
+Edge,E-0181,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2477,,197
+Edge,E-0182,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2478,,197
+Edge,E-0183,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2479,,197
+Edge,E-0184,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2699,,197
+Edge,E-0185,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2700,,197
+Edge,E-0186,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2701,,197
+Edge,E-0187,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2487,,197
+Edge,E-0188,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2488,,197
+Edge,E-0189,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2489,,197
+Edge,E-0190,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2497,,197
+Edge,E-0191,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2491,,197
+Edge,E-0192,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2492,,197
+Edge,E-0193,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2493,,197
+Edge,E-0194,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2494,,197
+Edge,E-0195,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2495,,197
+Edge,E-0196,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2498,,197
+Edge,E-0197,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2499,,197
+Edge,E-0198,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2501,,197
+Edge,E-0199,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2502,,197
+Edge,E-0200,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EVCC|SECC,,EVCC,SECC,ISO 15118-20,ISO 15118-20,ISO,V2G20-2503,,197
+Edge,E-0201,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.001,,126
+Edge,E-0202,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.002,,126
+Edge,E-0203,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.004,,126
+Edge,E-0204,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.006,,126
+Edge,E-0205,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.201,,126
+Edge,E-0206,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.202,,126
+Edge,E-0207,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.204,,126
+Edge,E-0208,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.205,,126
+Edge,E-0209,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.206,,126
+Edge,E-0210,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.207,,126
+Edge,E-0211,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.301,,126
+Edge,E-0212,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.303,,126
+Edge,E-0213,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.304,,126
+Edge,E-0214,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.308,,126
+Edge,E-0215,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.309,,126
+Edge,E-0216,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.310,,126
+Edge,E-0217,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.312,,126
+Edge,E-0218,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.313,,126
+Edge,E-0219,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.314,,126
+Edge,E-0220,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.315,,126
+Edge,E-0221,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.316,,126
+Edge,E-0222,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.317,,126
+Edge,E-0223,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.320,,126
+Edge,E-0224,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.321,,126
+Edge,E-0225,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.322,,126
+Edge,E-0226,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.323,,126
+Edge,E-0227,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.324,,126
+Edge,E-0228,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.401,,126
+Edge,E-0229,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.403,,126
+Edge,E-0230,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.405,,126
+Edge,E-0231,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.407,,126
+Edge,E-0232,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.411,,126
+Edge,E-0233,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.412,,126
+Edge,E-0234,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.413,,126
+Edge,E-0235,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.415,,126
+Edge,E-0236,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.416,,126
+Edge,E-0237,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.417,,126
+Edge,E-0238,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.418,,126
+Edge,E-0239,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.419,,126
+Edge,E-0240,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.420,,126
+Edge,E-0241,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.423,,126
+Edge,E-0242,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.424,,126
+Edge,E-0243,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.425,,126
+Edge,E-0244,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.426,,126
+Edge,E-0245,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.429,,126
+Edge,E-0246,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.430,,126
+Edge,E-0247,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.501,,126
+Edge,E-0248,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.502,,126
+Edge,E-0249,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.503,,126
+Edge,E-0250,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.504,,126
+Edge,E-0251,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.505,,126
+Edge,E-0252,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.506,,126
+Edge,E-0253,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.507,,126
+Edge,E-0254,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.508,,126
+Edge,E-0255,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.509,,126
+Edge,E-0256,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.511,,126
+Edge,E-0257,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.512,,126
+Edge,E-0258,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.514,,126
+Edge,E-0259,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.602,,126
+Edge,E-0260,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.603,,126
+Edge,E-0261,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.702,,126
+Edge,E-0262,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.703,,126
+Edge,E-0263,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.704,,126
+Edge,E-0264,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.707,,126
+Edge,E-0265,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.802,,126
+Edge,E-0266,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.805,,126
+Edge,E-0267,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.806,,126
+Edge,E-0268,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A00.FR.807,,126
+Edge,E-0269,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A01.FR.01,,126
+Edge,E-0270,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A01.FR.02,,126
+Edge,E-0271,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A01.FR.03,,126
+Edge,E-0272,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A01.FR.04,,126
+Edge,E-0273,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A01.FR.05,,126
+Edge,E-0274,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A01.FR.07,,126
+Edge,E-0275,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A01.FR.09,,126
+Edge,E-0276,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A01.FR.12,,126
+Edge,E-0277,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.04,,126
+Edge,E-0278,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.06,,126
+Edge,E-0279,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.10,,126
+Edge,E-0280,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.28,,126
+Edge,E-0281,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.13,,126
+Edge,E-0282,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.17,,126
+Edge,E-0283,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.19,,126
+Edge,E-0284,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.20,,126
+Edge,E-0285,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A02.FR.29,,126
+Edge,E-0286,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A03.FR.04,,126
+Edge,E-0287,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A03.FR.10,,126
+Edge,E-0288,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A03.FR.24,,126
+Edge,E-0289,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A03.FR.13,,126
+Edge,E-0290,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A03.FR.17,,126
+Edge,E-0291,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A03.FR.19,,126
+Edge,E-0292,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A03.FR.25,,126
+Edge,E-0293,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A04.FR.01,,126
+Edge,E-0294,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A04.FR.02,,126
+Edge,E-0295,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A04.FR.04,,126
+Edge,E-0296,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A05.FR.02,,126
+Edge,E-0297,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A05.FR.03,,126
+Edge,E-0298,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A05.FR.06,,126
+Edge,E-0299,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,A05.FR.07,,126
+Edge,E-0300,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L01.FR.01,,126
+Edge,E-0301,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L01.FR.02,,126
+Edge,E-0302,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L01.FR.03,,126
+Edge,E-0303,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L01.FR.09,,126
+Edge,E-0304,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L01.FR.10,,126
+Edge,E-0305,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L01.FR.20,,126
+Edge,E-0306,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L01.FR.24,,126
+Edge,E-0307,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L02.FR.01,,126
+Edge,E-0308,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L02.FR.06,,126
+Edge,E-0309,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L02.FR.14,,126
+Edge,E-0310,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L02.FR.15,,126
+Edge,E-0311,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L03.FR.02,,126
+Edge,E-0312,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L03.FR.03,,126
+Edge,E-0313,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L03.FR.04,,126
+Edge,E-0314,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L03.FR.05,,126
+Edge,E-0315,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L03.FR.06,,126
+Edge,E-0316,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L03.FR.07,,126
+Edge,E-0317,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L03.FR.08,,126
+Edge,E-0318,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L03.FR.09,,126
+Edge,E-0319,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L04.FR.01,,126
+Edge,E-0320,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L04.FR.02,,126
+Edge,E-0321,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,OCPP 2.0.1,OCPP,L04.FR.03,,126
+Edge,E-0322,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-28,,126
+Edge,E-0323,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-29,,126
+Edge,E-0324,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-30,,126
+Edge,E-0325,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-31,,126
+Edge,E-0326,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,EVSE|CSMS,,EVSE,CSMS,OCPP 2.0.1,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-32,,126
+Edge,E-0327,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2326,,40
+Edge,E-0328,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2327,,40
+Edge,E-0329,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2338,,40
+Edge,E-0331,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2344,,40
+Edge,E-0332,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2347,,40
+Edge,E-0333,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2352,,40
+Edge,E-0334,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2353,,40
+Edge,E-0335,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2354,,40
+Edge,E-0336,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2388,,40
+Edge,E-0337,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2391,,40
+Edge,E-0338,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-1021,,40
+Edge,E-0339,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2394,,40
+Edge,E-0340,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2395,,40
+Edge,E-0341,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2401,,40
+Edge,E-0342,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2402,,40
+Edge,E-0343,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2403,,40
+Edge,E-0344,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2404,,40
+Edge,E-0345,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2411,,40
+Edge,E-0346,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2412,,40
+Edge,E-0347,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2413,,40
+Edge,E-0348,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2414,,40
+Edge,E-0349,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2418,,40
+Edge,E-0350,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2419,,40
+Edge,E-0351,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2421,,40
+Edge,E-0352,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2437,,40
+Edge,E-0353,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2444,,40
+Edge,E-0354,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2445,,40
+Edge,E-0355,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2447,,40
+Edge,E-0356,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2450,,40
+Edge,E-0357,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2451,,40
+Edge,E-0358,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2452,,40
+Edge,E-0359,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2455,,40
+Edge,E-0360,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2456,,40
+Edge,E-0361,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2457,,40
+Edge,E-0362,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2469,,40
+Edge,E-0363,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2570,,40
+Edge,E-0364,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2562,,40
+Edge,E-0365,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-1412,,40
+Edge,E-0366,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2605,,40
+Edge,E-0367,Cross-Zone: Trust Infrastructure ↔ Z2: XFC/EVSE Domain,PKI|SECC,,PKI,SECC,OCSP,ISO 15118-20,ISO,V2G20-2715,,40
+Edge,E-0368,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2340,,30
+Edge,E-0369,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-1806,,30
+Edge,E-0370,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2355,,30
+Edge,E-0371,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-1006,,30
+Edge,E-0372,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2368,,30
+Edge,E-0373,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2369,,30
+Edge,E-0374,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2370,,30
+Edge,E-0375,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2373,,30
+Edge,E-0376,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2388,,30
+Edge,E-0377,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2391,,30
+Edge,E-0378,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2394,,30
+Edge,E-0379,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2395,,30
+Edge,E-0380,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2396,,30
+Edge,E-0381,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2397,,30
+Edge,E-0382,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2401,,30
+Edge,E-0383,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2402,,30
+Edge,E-0384,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2411,,30
+Edge,E-0385,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2412,,30
+Edge,E-0386,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2413,,30
+Edge,E-0387,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2414,,30
+Edge,E-0388,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2418,,30
+Edge,E-0389,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2419,,30
+Edge,E-0390,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2420,,30
+Edge,E-0391,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2421,,30
+Edge,E-0392,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2468,,30
+Edge,E-0393,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2562,,30
+Edge,E-0394,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2579,,30
+Edge,E-0395,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-907,,30
+Edge,E-0396,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2586,,30
+Edge,E-0397,Z1: EV Domain ↔ Cross-Zone: Trust Infrastructure,EVCC|PKI,,EVCC,PKI,OCSP,ISO 15118-20,ISO,V2G20-2587,,30
+Edge,E-0398,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2328,,11
+Edge,E-0399,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2329,,11
+Edge,E-0400,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2330,,11
+Edge,E-0401,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2336,,11
+Edge,E-0402,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2349,,11
+Edge,E-0403,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2579,,11
+Edge,E-0404,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2585,,11
+Edge,E-0405,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2586,,11
+Edge,E-0406,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2587,,11
+Edge,E-0407,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2590,,11
+Edge,E-0408,Cross-Zone: Trust Infrastructure ↔ Z3: Cloud/Third-Party,PKI|eMSP,,PKI,eMSP,eMSP CA,ISO 15118-20,ISO,V2G20-2591,,11
+Edge,E-0409,Z1: EV Domain ↔ Cross-Zone: Communication Infrastructure,EVCC|Wireless,,EVCC,Wireless,WLAN,ISO 15118-20,ISO,V2G20-1015,,6
+Edge,E-0410,Z1: EV Domain ↔ Cross-Zone: Communication Infrastructure,EVCC|Wireless,,EVCC,Wireless,WLAN,ISO 15118-20,ISO,V2G20-2247,,6
+Edge,E-0411,Z1: EV Domain ↔ Cross-Zone: Communication Infrastructure,EVCC|Wireless,,EVCC,Wireless,WLAN,ISO 15118-20,ISO,V2G20-2251,,6
+Edge,E-0412,Z1: EV Domain ↔ Cross-Zone: Communication Infrastructure,EVCC|Wireless,,EVCC,Wireless,WLAN,ISO 15118-20,ISO,V2G20-2254,,6
+Edge,E-0413,Z1: EV Domain ↔ Cross-Zone: Communication Infrastructure,EVCC|Wireless,,EVCC,Wireless,WLAN,ISO 15118-20,ISO,V2G20-2259,,6
+Edge,E-0414,Z1: EV Domain ↔ Cross-Zone: Communication Infrastructure,EVCC|Wireless,,EVCC,Wireless,WLAN,ISO 15118-20,ISO,V2G20-4046,,6
+Edge,E-0415,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EVCC,,CSMS,EVCC,CSMS↔EVCC,ISO 15118-20,ISO,V2G20-2255,,6
+Edge,E-0416,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EVCC,,CSMS,EVCC,CSMS↔EVCC,ISO 15118-20,ISO,V2G20-2257,,6
+Edge,E-0417,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EVCC,,CSMS,EVCC,CSMS↔EVCC,ISO 15118-20,ISO,V2G20-2259,,6
+Edge,E-0418,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EVCC,,CSMS,EVCC,CSMS↔EVCC,ISO 15118-20,ISO,V2G20-2260,,6
+Edge,E-0419,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EVCC,,CSMS,EVCC,CSMS↔EVCC,ISO 15118-20,ISO,V2G20-2261,,6
+Edge,E-0420,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EVCC,,CSMS,EVCC,CSMS↔EVCC,ISO 15118-20,ISO,V2G20-2029,,6
+Edge,E-0422,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EVCC|eMSP,,EVCC,eMSP,PnC contract,ISO 15118-20,ISO,V2G20-1078,,5
+Edge,E-0423,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EVCC|eMSP,,EVCC,eMSP,PnC contract,ISO 15118-20,ISO,V2G20-2579,,5
+Edge,E-0424,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EVCC|eMSP,,EVCC,eMSP,PnC contract,ISO 15118-20,ISO,V2G20-1580,,5
+Edge,E-0425,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EVCC|eMSP,,EVCC,eMSP,PnC contract,ISO 15118-20,ISO,V2G20-2586,,5
+Edge,E-0426,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EVCC|eMSP,,EVCC,eMSP,PnC contract,ISO 15118-20,ISO,V2G20-2587,,5
+Edge,E-0428,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,SECC|eMSP,,SECC,eMSP,eMSP authentication,ISO 15118-20,ISO,V2G20-1552,,5
+Edge,E-0429,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,SECC|eMSP,,SECC,eMSP,eMSP authentication,ISO 15118-20,ISO,V2G20-2208,,5
+Edge,E-0430,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,SECC|eMSP,,SECC,eMSP,eMSP authentication,ISO 15118-20,ISO,V2G20-2211,,5
+Edge,E-0431,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,SECC|eMSP,,SECC,eMSP,eMSP authentication,ISO 15118-20,ISO,V2G20-1580,,5
+Edge,E-0432,Z2: XFC/EVSE Domain ↔ Z3: Cloud/Third-Party,SECC|eMSP,,SECC,eMSP,eMSP authentication,ISO 15118-20,ISO,V2G20-2224,,5
+Edge,E-0433,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EV-Internal|EVSE,,EV-Internal,EVSE,EV↔EVSE,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-28,,5
+Edge,E-0434,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EV-Internal|EVSE,,EV-Internal,EVSE,EV↔EVSE,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-29,,5
+Edge,E-0435,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EV-Internal|EVSE,,EV-Internal,EVSE,EV↔EVSE,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-30,,5
+Edge,E-0436,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EV-Internal|EVSE,,EV-Internal,EVSE,EV↔EVSE,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-31,,5
+Edge,E-0437,Z1: EV Domain ↔ Z2: XFC/EVSE Domain,EV-Internal|EVSE,,EV-Internal,EVSE,EV↔EVSE,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-32,,5
+Edge,E-0438,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-06,,10
+Edge,E-0439,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-07,,10
+Edge,E-0440,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-08,,10
+Edge,E-0441,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-09,,10
+Edge,E-0442,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-10,,10
+Edge,E-0443,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-11,,10
+Edge,E-0444,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-12,,10
+Edge,E-0445,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-13,,10
+Edge,E-0446,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-14,,10
+Edge,E-0447,Z1: EV Domain ↔ Z3: Cloud/Third-Party,EV-Internal|eMSP,,EV-Internal,eMSP,OEM Telematics,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-15,,10
+Edge,E-0448,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EV-Internal,,CSMS,EV-Internal,ENISA Cloud,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-28,,5
+Edge,E-0449,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EV-Internal,,CSMS,EV-Internal,ENISA Cloud,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-29,,5
+Edge,E-0450,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EV-Internal,,CSMS,EV-Internal,ENISA Cloud,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-30,,5
+Edge,E-0451,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EV-Internal,,CSMS,EV-Internal,ENISA Cloud,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-31,,5
+Edge,E-0452,Z3: Cloud/Third-Party ↔ Z1: EV Domain,CSMS|EV-Internal,,CSMS,EV-Internal,ENISA Cloud,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,TM-32,,5
+Organization Policy,ORG-0001,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-1,Table 2; AM-1 | EV,
+Organization Policy,ORG-0002,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-2,Table 2; AM-2 | EV,
+Organization Policy,ORG-0003,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-2,Table 2; AM-2 | XFC/EVSE,
+Organization Policy,ORG-0004,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-2,Table 2; AM-2 | Cloud/Third-Party,
+Organization Policy,ORG-0005,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-2,Table 2; AM-2 | Utility/Building Management System,
+Organization Policy,ORG-0006,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-3,Table 2; AM-3 | EV,
+Organization Policy,ORG-0007,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-3,Table 2; AM-3 | Cloud/Third-Party,
+Organization Policy,ORG-0008,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-4,Table 2; AM-4 | Cloud/Third-Party,
+Organization Policy,ORG-0009,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-5,Table 2; AM-5 | EV,
+Organization Policy,ORG-0010,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-5,Table 2; AM-5 | XFC/EVSE,
+Organization Policy,ORG-0011,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-5,Table 2; AM-5 | Cloud/Third-Party,
+Organization Policy,ORG-0012,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-5,Table 2; AM-5 | Utility/Building Management System,
+Organization Policy,ORG-0013,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-6,Table 2; AM-6 | EV,
+Organization Policy,ORG-0014,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-6,Table 2; AM-6 | XFC/EVSE,
+Organization Policy,ORG-0015,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AM-6,Table 2; AM-6 | Utility/Building Management System,
+Organization Policy,ORG-0016,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-1,Table 3; BE-1 | EV,
+Organization Policy,ORG-0017,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-1,Table 3; BE-1 | XFC/EVSE,
+Organization Policy,ORG-0018,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-1,Table 3; BE-1 | Cloud/Third-Party,
+Organization Policy,ORG-0019,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-1,Table 3; BE-1 | Utility/Building Management System,
+Organization Policy,ORG-0020,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-2,Table 3; BE-2 | EV,
+Organization Policy,ORG-0021,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-2,Table 3; BE-2 | Cloud/Third-Party,
+Organization Policy,ORG-0022,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-2,Table 3; BE-2 | Utility/Building Management System,
+Organization Policy,ORG-0023,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-3,Table 3; BE-3 | EV,
+Organization Policy,ORG-0024,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-3,Table 3; BE-3 | XFC/EVSE,
+Organization Policy,ORG-0025,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-4,Table 3; BE-4 | XFC/EVSE,
+Organization Policy,ORG-0026,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-5,Table 3; BE-5 | EV,
+Organization Policy,ORG-0027,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-5,Table 3; BE-5 | XFC/EVSE,
+Organization Policy,ORG-0028,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,BE-5,Table 3; BE-5 | Utility/Building Management System,
+Organization Policy,ORG-0029,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,GV-2,Table 4; GV-2 | EV,
+Organization Policy,ORG-0030,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,GV-2,Table 4; GV-2 | XFC/EVSE,
+Organization Policy,ORG-0031,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,RA-1,Table 5; RA-1 | Utility/Building Management System,
+Organization Policy,ORG-0032,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,RA-2,Table 5; RA-2 | Utility/Building Management System,
+Organization Policy,ORG-0033,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,RM-1,Table 6; RM-1 | EV,
+Organization Policy,ORG-0034,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,RM-1,Table 6; RM-1 | XFC/EVSE,
+Organization Policy,ORG-0035,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,RM-1,Table 6; RM-1 | Cloud/Third-Party,
+Organization Policy,ORG-0036,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,RM-1,Table 6; RM-1 | Utility/Building Management System,
+Organization Policy,ORG-0037,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,SC-1,Table 7; SC-1 | EV,
+Organization Policy,ORG-0038,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,SC-1,Table 7; SC-1 | XFC/EVSE,
+Organization Policy,ORG-0039,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,SC-1,Table 7; SC-1 | Cloud/Third-Party,
+Organization Policy,ORG-0040,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,SC-1,Table 7; SC-1 | Utility/Building Management System,
+Organization Policy,ORG-0041,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,SC-2,Table 7; SC-2 | XFC/EVSE,
+Organization Policy,ORG-0042,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AC-4,Table 8; AC-4 | EV,
+Organization Policy,ORG-0043,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AC-4,Table 8; AC-4 | Utility/Building Management System,
+Organization Policy,ORG-0044,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AT-1,Table 9; AT-1 | EV,
+Organization Policy,ORG-0045,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,AT-1,Table 9; AT-1 | Cloud/Third-Party,
+Organization Policy,ORG-0046,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-1,Table 10; DS-1 | EV,
+Organization Policy,ORG-0047,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-1,Table 10; DS-1 | XFC/EVSE,
+Organization Policy,ORG-0048,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-1,Table 10; DS-1 | Cloud/Third-Party,
+Organization Policy,ORG-0049,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-1,Table 10; DS-1 | Utility/Building Management System,
+Organization Policy,ORG-0050,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-2,Table 10; DS-2 | EV,
+Organization Policy,ORG-0051,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-2,Table 10; DS-2 | Cloud/Third-Party,
+Organization Policy,ORG-0052,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-2,Table 10; DS-2 | Utility/Building Management System,
+Organization Policy,ORG-0053,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-3,Table 10; DS-3 | EV,
+Organization Policy,ORG-0054,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-3,Table 10; DS-3 | XFC/EVSE,
+Organization Policy,ORG-0055,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-3,Table 10; DS-3 | Cloud/Third-Party,
+Organization Policy,ORG-0056,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-3,Table 10; DS-3 | Utility/Building Management System,
+Organization Policy,ORG-0057,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-4,Table 10; DS-4 | XFC/EVSE,
+Organization Policy,ORG-0058,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-4,Table 10; DS-4 | Cloud/Third-Party,
+Organization Policy,ORG-0059,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-4,Table 10; DS-4 | Utility/Building Management System,
+Organization Policy,ORG-0060,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-5,Table 10; DS-5 | EV,
+Organization Policy,ORG-0061,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-5,Table 10; DS-5 | XFC/EVSE,
+Organization Policy,ORG-0062,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-5,Table 10; DS-5 | Cloud/Third-Party,
+Organization Policy,ORG-0063,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-5,Table 10; DS-5 | Utility/Building Management System,
+Organization Policy,ORG-0064,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,DS-6,Table 10; DS-6 | XFC/EVSE,
+Organization Policy,ORG-0065,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-2,Table 11; IP-2 | Utility/Building Management System,
+Organization Policy,ORG-0066,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-3,Table 11; IP-3 | XFC/EVSE,
+Organization Policy,ORG-0067,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-6,Table 11; IP-6 | EV,
+Organization Policy,ORG-0068,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-6,Table 11; IP-6 | XFC/EVSE,
+Organization Policy,ORG-0069,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-7,Table 11; IP-7 | EV,
+Organization Policy,ORG-0070,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-7,Table 11; IP-7 | XFC/EVSE,
+Organization Policy,ORG-0071,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-8,Table 11; IP-8 | XFC/EVSE,
+Organization Policy,ORG-0072,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-9,Table 11; IP-9 | EV,
+Organization Policy,ORG-0073,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,IP-9,Table 11; IP-9 | XFC/EVSE,
+Organization Policy,ORG-0074,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,MA-1,Table 12; MA-1 | XFC/EVSE,
+Organization Policy,ORG-0075,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,PT-4,Table 13; PT-4 | EV,
+Organization Policy,ORG-0076,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,PT-4,Table 13; PT-4 | Utility/Building Management System,
+Organization Policy,ORG-0077,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,CM-1,Table 15; CM-1 | XFC/EVSE,
+Organization Policy,ORG-0078,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,CM-1,Table 15; CM-1 | Utility/Building Management System,
+Organization Policy,ORG-0079,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,CM-4,Table 15; CM-4 | EV,
+Organization Policy,ORG-0080,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,CM-4,Table 15; CM-4 | XFC/EVSE,
+Organization Policy,ORG-0081,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,CM-6,Table 15; CM-6 | EV,
+Organization Policy,ORG-0082,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,RP-1,Table 24; RP-1 | EV,
+Organization Policy,ORG-0083,Organization / Governance Policy,ORG,,,,,NIST IR 8473,NIST,RP-1,Table 24; RP-1 | XFC/EVSE,
+Organization Policy,ORG-0084,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-01,Recommendation OP-01,
+Organization Policy,ORG-0085,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-02,Recommendation OP-02,
+Organization Policy,ORG-0086,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-03,Recommendation OP-03,
+Organization Policy,ORG-0087,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-04,Recommendation OP-04,
+Organization Policy,ORG-0088,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-05,Recommendation OP-05,
+Organization Policy,ORG-0089,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-06,Recommendation OP-06,
+Organization Policy,ORG-0090,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-07,Recommendation OP-07,
+Organization Policy,ORG-0091,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-08,Recommendation OP-08,
+Organization Policy,ORG-0092,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-09,Recommendation OP-09,
+Organization Policy,ORG-0093,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-10,Recommendation OP-10,
+Organization Policy,ORG-0094,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-11,Recommendation OP-11,
+Organization Policy,ORG-0095,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-12,Recommendation OP-12,
+Organization Policy,ORG-0096,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-13,Recommendation OP-13,
+Organization Policy,ORG-0097,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-14,Recommendation OP-14,
+Organization Policy,ORG-0098,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,OP-15,Recommendation OP-15,
+Organization Policy,ORG-0099,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-01,Recommendation PS-01,
+Organization Policy,ORG-0100,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-02,Recommendation PS-02,
+Organization Policy,ORG-0101,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-03,Recommendation PS-03,
+Organization Policy,ORG-0102,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-04,Recommendation PS-04,
+Organization Policy,ORG-0103,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-05,Recommendation PS-05,
+Organization Policy,ORG-0104,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-06,Recommendation PS-06,
+Organization Policy,ORG-0105,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-07,Recommendation PS-07,
+Organization Policy,ORG-0106,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-08,Recommendation PS-08,
+Organization Policy,ORG-0107,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-09,Recommendation PS-09,
+Organization Policy,ORG-0108,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-10,Recommendation PS-10,
+Organization Policy,ORG-0109,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-11,Recommendation PS-11,
+Organization Policy,ORG-0110,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-12,Recommendation PS-12,
+Organization Policy,ORG-0111,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-13,Recommendation PS-13,
+Organization Policy,ORG-0112,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-14,Recommendation PS-14,
+Organization Policy,ORG-0113,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-15,Recommendation PS-15,
+Organization Policy,ORG-0114,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-16,Recommendation PS-16,
+Organization Policy,ORG-0115,Organization / Governance Policy,ORG,,,,,ENISA Smart Cars / Automotive Cybersecurity Guidelines,ENISA,PS-17,Recommendation PS-17,
+IEC Cross-cutting,IEC-0001,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.1,,
+IEC Cross-cutting,IEC-0002,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.2,,
+IEC Cross-cutting,IEC-0003,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.3,,
+IEC Cross-cutting,IEC-0004,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.4,,
+IEC Cross-cutting,IEC-0005,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.5,,
+IEC Cross-cutting,IEC-0006,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.6,,
+IEC Cross-cutting,IEC-0007,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.7,,
+IEC Cross-cutting,IEC-0008,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.8,,
+IEC Cross-cutting,IEC-0009,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.9,,
+IEC Cross-cutting,IEC-0010,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.10,,
+IEC Cross-cutting,IEC-0011,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.11,,
+IEC Cross-cutting,IEC-0012,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.12,,
+IEC Cross-cutting,IEC-0013,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 1.13,,
+IEC Cross-cutting,IEC-0014,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.1,,
+IEC Cross-cutting,IEC-0015,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.2,,
+IEC Cross-cutting,IEC-0016,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.3,,
+IEC Cross-cutting,IEC-0017,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.4,,
+IEC Cross-cutting,IEC-0018,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.5,,
+IEC Cross-cutting,IEC-0019,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.6,,
+IEC Cross-cutting,IEC-0020,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.7,,
+IEC Cross-cutting,IEC-0021,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.8,,
+IEC Cross-cutting,IEC-0022,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.9,,
+IEC Cross-cutting,IEC-0023,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.10,,
+IEC Cross-cutting,IEC-0024,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.11,,
+IEC Cross-cutting,IEC-0025,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 2.12,,
+IEC Cross-cutting,IEC-0026,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.1,,
+IEC Cross-cutting,IEC-0027,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.2,,
+IEC Cross-cutting,IEC-0028,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.3,,
+IEC Cross-cutting,IEC-0029,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.4,,
+IEC Cross-cutting,IEC-0030,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.5,,
+IEC Cross-cutting,IEC-0031,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.6,,
+IEC Cross-cutting,IEC-0032,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.7,,
+IEC Cross-cutting,IEC-0033,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.8,,
+IEC Cross-cutting,IEC-0034,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 3.9,,
+IEC Cross-cutting,IEC-0035,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 4.1,,
+IEC Cross-cutting,IEC-0036,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 4.2,,
+IEC Cross-cutting,IEC-0037,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 4.3,,
+IEC Cross-cutting,IEC-0038,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 5.1,,
+IEC Cross-cutting,IEC-0039,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 5.2,,
+IEC Cross-cutting,IEC-0040,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 5.3,,
+IEC Cross-cutting,IEC-0041,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 5.4,,
+IEC Cross-cutting,IEC-0042,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 6.1,,
+IEC Cross-cutting,IEC-0043,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 6.2,,
+IEC Cross-cutting,IEC-0044,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 7.1,,
+IEC Cross-cutting,IEC-0045,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 7.2,,
+IEC Cross-cutting,IEC-0046,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 7.3,,
+IEC Cross-cutting,IEC-0047,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 7.4,,
+IEC Cross-cutting,IEC-0048,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 7.5,,
+IEC Cross-cutting,IEC-0049,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 7.6,,
+IEC Cross-cutting,IEC-0050,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 7.7,,
+IEC Cross-cutting,IEC-0051,IEC 62443 Cross-cutting,IEC 62443,,,,,IEC 62443,IEC,SR 7.8,,

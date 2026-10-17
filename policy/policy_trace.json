@@ -1,0 +1,626 @@
+{
+  "purpose": "Trace applicable source conditions and existing controls to additional admission predicates, trusted attributes and enforceable deployment prerequisites.",
+  "evidence_rule": "A documented topology is not proof that a specific admission predicate is required. A source that does not establish a predicate does not establish its absence in every standard or product. Controls on one hop do not automatically protect a different hop.",
+  "design_binding_rule": "Before deployment binding, missing role/schema/trusted attribute/controllable PEP yields Undetermined; a documented incompatible architecture yields Not applicable. Neither is an observed runtime DENY.",
+  "runtime_rule": "Only for an instantiated, trusted, controllable PEP: accept a new command only when every configured required predicate is satisfied; a failed or unavailable required predicate denies that new command. Optional checks must be declared optional and omitted before policy evaluation, not bypassed opportunistically.",
+  "failure_rule": "A failed PEP cannot block traffic itself. Denial on PEP failure requires an independently trusted enforcement gate. Otherwise enforcement is unavailable, with no fail-closed guarantee. Existing charging follows a separately specified local safety policy; no universal stop/de-energize action is inferred.",
+  "notation": "lower-case predicate names are proposed abstract design terms, not OCPP fields, software APIs, implemented functions, or newly executed tests.",
+  "certificate_recovery_limit": "Under A00.FR.407, if .429 does not apply and the station has no valid certificate or its certification path is invalid, the CSMS shall terminate the connection. A00.FR.408 recommends logging InvalidChargingStationCertificate when .407 or .429 applies. Under .429, a CSMS explicitly configured for a specific expired-certificate station may admit BootNotification Pending and shall immediately initiate A02 renewal. Under .430, an expired-certificate station should attempt connection. No P2 recovery requirement or universal P3-only recovery rule follows.",
+  "sources": [
+    {
+      "id": "S-P1-85",
+      "source": "OCPP 2.0.1 Edition 4 Part 1",
+      "edition": "2025-12-03",
+      "locator": "§8.5; PDF p.18 / printed p.16",
+      "scope": "Recognizes non-OCPP DSO signals (for example OpenADR/OSCP) to CSMS and subsequent OCPP profile/schedule delivery to the station. This topology passage does not specify the proposed ingress subject/group/action admission checks.",
+      "artifact": "OCPP-2.0.1_edition4_part1_architecture_topology.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-P1-86",
+      "source": "OCPP 2.0.1 Edition 4 Part 1",
+      "edition": "2025-12-03",
+      "locator": "§8.6; PDF pp.18–19 / printed pp.16–17",
+      "scope": "Recognizes parallel CSMS/EMS control and reporting of externally imposed limits. The EMS hop may use OCPP or another protocol. The applicable Part 2 smart-charging rules must also be considered; topology recognition alone does not establish actual EMS principal/site/target authorization.",
+      "artifact": "OCPP-2.0.1_edition4_part1_architecture_topology.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-P2-TLS",
+      "source": "OCPP 2.0.1 Edition 4 Part 2",
+      "edition": "2025-12-03",
+      "locator": "Security §1.3; A00.FR.306–314 PDF31 / printed21; A00.FR.401–403 PDF33 / printed23; A00.FR.409–420 PDF34 / printed24",
+      "scope": "P2/P3 TLS and authentication baseline on the Charging Station–CSMS OCPP session. A00.FR.313/.416 require TLS 1.2 or above. TLS1.3-only is optional deployment hardening; session controls do not automatically apply to a different hop.",
+      "artifact": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-DOWNGRADE",
+      "source": "OCPP 2.0.1 Edition 4 Part 2 and Appendices v1.5",
+      "edition": "2025-12-03",
+      "locator": "Part2 §1.3.1 A00.FR.005 PDF28 / printed18; Appendix §3.1.15 SecurityCtrlr PDF13 / printed11; variable list PDF37 / printed35",
+      "scope": "P2/P3 to P1 through OCPP is already forbidden. P3 to P2 is conditional on implemented AllowSecurityProfileDowngrade=true. Proposed no-P3-to-P2 is a deployment choice stricter than that allowed transition, not invention of baseline downgrade protection.",
+      "artifact": "Part2 and OCPP-2.0.1_edition4_part2_appendices_v15.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-RECOVERY",
+      "source": "OCPP 2.0.1 Edition 4 Part 2",
+      "edition": "2025-12-03",
+      "locator": "A00.FR.407–408; PDF p.34 / printed p.24; A00.FR.429–430; PDF p.36 / printed p.26",
+      "scope": "Under A00.FR.407, if .429 does not apply and the station has no valid certificate or its certification path is invalid, the CSMS shall terminate the connection. A00.FR.408 recommends logging InvalidChargingStationCertificate when .407 or .429 applies. Under .429, a CSMS explicitly configured for a specific expired-certificate station may admit BootNotification Pending and shall immediately initiate A02 renewal. Under .430, an expired-certificate station should attempt connection. No P2 recovery requirement or universal P3-only recovery rule follows.",
+      "artifact": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-P2-K-PROFILES",
+      "source": "OCPP 2.0.1 Edition 4 Part 2",
+      "edition": "2025-12-03",
+      "locator": "K §3.2; PDF p.251 / printed p.241; K §3.4–3.5; PDF p.252 / printed p.242",
+      "scope": "Within the applicable OCPP smart-charging configuration, TxProfile takes precedence over TxDefaultProfile for its transaction or earlier expiry. External limits are represented as ChargingStationExternalConstraints. Valid highest-stack profiles per purpose and compatible units enter the composite limit. These existing rules are not introduced by A2.",
+      "artifact": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-P2-K-ROLES",
+      "source": "OCPP 2.0.1 Edition 4 Part 2",
+      "edition": "2025-12-03",
+      "locator": "K §4 Table 93 SC.01; PDF p.256 / printed p.246; K01.FR.22; PDF p.259 / printed p.249",
+      "scope": "SC.01 requires the actual limit from merging external schedules and each purpose’s highest-stack OCPP profile to be no greater than the lowest merged available power/current. K01.FR.22 prohibits CSMS from setting ChargingStationExternalConstraints as the purpose in SetChargingProfileRequest. These rules apply in their specified OCPP scope, not automatically to every non-OCPP EMS.",
+      "artifact": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-A3-ASSUMPTION",
+      "source": "Hypothetical station-local software boundary",
+      "edition": "Study design assumption",
+      "locator": "Manuscript §4.4 (A3)",
+      "scope": "Assume separately identifiable SECC and OCPP-processing modules with an observable and controllable IPC boundary. No actual charger implementation evidence is available. The local IPC boundary is distinct from a remote SECC–CSMS communication relation. This assumption is not a standardized topology or an observed product architecture.",
+      "artifact": "Accompanying manuscript, A3 design specification",
+      "source_type": "Explicit design assumption",
+      "url": ""
+    }
+  ],
+  "patterns": [
+    {
+      "id": "A1",
+      "name": "DSO ingress authorization",
+      "role_hops": "DSO or grid signal provider → CSMS ingress (non-OCPP); CSMS → station (OCPP)",
+      "object": "Load/power-control request and target charger group; actual ingress schema unverified",
+      "baseline": "Part 1 §8.5 identifies the non-OCPP DSO-to-CSMS input and downstream OCPP flow. P2/P3 TLS/authentication protects the downstream session; it does not automatically authorize upstream requests.",
+      "addition": "DSO-to-group and action authorization; permitted load envelope; freshness only when securely observable",
+      "pep": "CSMS external-command ingress gateway before OCPP translation",
+      "status": "Conditional principal design",
+      "source_ids": [
+        "S-P1-85",
+        "S-P2-TLS"
+      ],
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification",
+      "scientific_limit": "Uses established API authorization and ZTA placement. The specification identifies additional admission conditions and their boundary; no comparative deployment evaluation is provided."
+    },
+    {
+      "id": "A2",
+      "name": "Site EMS request admission",
+      "role_hops": "Site EMS → station/local controller; parallel CSMS → station OCPP flow",
+      "object": "External requested charging upper bound or other explicitly identified site control object; units, direction and schema must be bound.",
+      "baseline": "Applicable OCPP profile-purpose/stacking and TxProfile precedence rules, the SC.01 composite-limit bound, and K01.FR.22 external-constraints purpose restriction already apply. Non-OCPP EMS scope must be determined separately.",
+      "addition": "EMS principal/site/target authorization, verifiable origin and input integrity, allowed control-authority changes, and freshness where securely bound. Optional stricter request-bound admission is separate from standard limit composition.",
+      "pep": "Controllable field gateway or station-side command intake",
+      "status": "Conditional principal design",
+      "source_ids": [
+        "S-P1-86",
+        "S-P2-K-PROFILES",
+        "S-P2-K-ROLES",
+        "S-P2-TLS"
+      ],
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification",
+      "scientific_limit": "A2 does not introduce OCPP aggregation, profile precedence or purpose restrictions. It specifies additional deployment admission checks; no universal controller ranking or generic non-OCPP protection is established."
+    },
+    {
+      "id": "A3",
+      "name": "Station-local IPC mediation",
+      "role_hops": "Hypothetical SECC process ↔ OCPP-processing module inside one station",
+      "object": "Vendor IPC messages or internal actions; no verified schema/process boundary",
+      "baseline": "The station-local IPC boundary is a hypothetical architecture assumption without actual charger implementation evidence. It is distinct from the remote SECC–CSMS communication relation.",
+      "addition": "IPC-principal binding, message-type allowlist, state/action constraints, integrity/freshness where meaningful",
+      "pep": "Hypothetical product-specific local IPC gate or privileged dispatcher",
+      "status": "Conditional hypothetical boundary PEP",
+      "source_ids": [
+        "S-A3-ASSUMPTION"
+      ],
+      "implementation_status": "Not demonstrated",
+      "design_status": "Hypothetical design assumption",
+      "scientific_limit": "Illustrative design pattern only. Process isolation, IPC security and enforcement have not been demonstrated."
+    },
+    {
+      "id": "A4",
+      "name": "Access-context and session hardening",
+      "role_hops": "Station via wireless/modem access conduit to CSMS; application endpoints terminate OCPP TLS",
+      "object": "Device/network admission context and endpoint-observable OCPP session profile; no claimed wire visibility through TLS",
+      "baseline": "P2/P3 already supply TLS/authentication; P2/P3→P1 prohibition already exists. Access conduit is distinct from application TLS. P3→P2 allowed only under explicit option.",
+      "addition": "Bind approved device/access context to session; optional no-P3→P2 and TLS1.3-only deployment policies",
+      "pep": "Access gateway for observable access context; OCPP TLS endpoint or trusted management controller for profile/TLS controls",
+      "status": "Conditional hardening example",
+      "source_ids": [
+        "S-P2-TLS",
+        "S-DOWNGRADE"
+      ],
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification",
+      "scientific_limit": "Uses established TLS-version and security-profile configuration. No additional cryptographic mechanism or measured advantage is specified."
+    }
+  ],
+  "traces": [
+    {
+      "id": "A1-SCOPE",
+      "pattern": "A1",
+      "source_ids": [
+        "S-P1-85"
+      ],
+      "applicability_condition": "Concrete non-OCPP DSO ingress API and target-group semantics are bound.",
+      "existing_baseline": "Part 1 §8.5 recognizes the DSO–CSMS–station flow. Downstream OCPP TLS and authentication are separate from authorization for the upstream target group.",
+      "not_established_premise": "Authenticated signal issuer is not established as authorized for every target charger group.",
+      "proposed_predicate": "allowed_groups(authenticated_subject) contains requested_group",
+      "required_attributes": "Authenticated subject; target group; group membership; policy version",
+      "trusted_attribute_source": "Configured operator authority grants plus authenticated ingress binding; self-asserted payload subject/group is insufficient.",
+      "pep": "CSMS ingress before OCPP translation",
+      "expected_allow": "Only when group scope and all other configured mandatory checks pass.",
+      "expected_deny": "Out-of-scope group: reject new request; do not create downstream OCPP command.",
+      "unmet_binding_prerequisite": "Unknown API/principal/grants/PEP: Undetermined design binding.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "Recognized DSO requests a charger group outside its grant: intended DENY, not observed blocking.",
+      "validation_limit": "No API/credential/grant schema or implementation was tested.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A1-ACTION",
+      "pattern": "A1",
+      "source_ids": [
+        "S-P1-85",
+        "S-P2-TLS"
+      ],
+      "applicability_condition": "The ingress action can be mapped unambiguously to a downstream charging action.",
+      "existing_baseline": "Downstream OCPP session authentication does not establish the upstream DSO subject’s permission for every requested action.",
+      "not_established_premise": "Scope-limited command-type authorization is not established by the reviewed topology and session sources.",
+      "proposed_predicate": "requested_action in allowed_actions(subject, target_group)",
+      "required_attributes": "Requested action; resolved downstream action; subject/group grant",
+      "trusted_attribute_source": "Operator-managed action vocabulary and grants; authenticated request parser with documented translation.",
+      "pep": "CSMS ingress before translation",
+      "expected_allow": "Accept action only with scope match and valid semantic translation.",
+      "expected_deny": "Unpermitted or ambiguous action: reject new request.",
+      "unmet_binding_prerequisite": "Missing action mapping: Undetermined design binding.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "DSO grant permits load reduction but request asks for a separately privileged operation: intended DENY.",
+      "validation_limit": "Actions are abstract proposed vocabulary, not asserted OCPP or OpenADR fields.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A1-ENVELOPE",
+      "pattern": "A1",
+      "source_ids": [
+        "S-P1-85"
+      ],
+      "applicability_condition": "Request units, power direction and operator envelope are bound.",
+      "existing_baseline": "Existing charging controls may impose limits; a specific ingress acceptance envelope is not established here.",
+      "not_established_premise": "Issuer authentication alone does not prove load-limit suitability for this charger group.",
+      "proposed_predicate": "requested_limit belongs_to configured_envelope(target_group, action, operating_state)",
+      "required_attributes": "Requested limit; units/direction; target capacity; current envelope version",
+      "trusted_attribute_source": "Approved operator/site safety configuration and authenticated operational state; limits not trusted solely from the requester.",
+      "pep": "CSMS ingress with approved operational policy",
+      "expected_allow": "Accept only if resulting request respects the declared group envelope.",
+      "expected_deny": "Out-of-envelope request: reject; no silent clipping in this proposed default.",
+      "unmet_binding_prerequisite": "Unknown units/envelope: Undetermined design binding.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "Authorized DSO requests a limit outside the approved group envelope: intended DENY.",
+      "validation_limit": "No numerical envelope, equipment behavior or stability effect measured.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A1-FRESHNESS",
+      "pattern": "A1",
+      "source_ids": [
+        "S-P1-85"
+      ],
+      "applicability_condition": "Ingress exposes integrity-bound nonce/timestamp or equivalent freshness proof and trusted checking state.",
+      "existing_baseline": "No nonce/signature obligation for this non-OCPP message is established by the reviewed OCPP topology.",
+      "not_established_premise": "Freshness of an upstream signal cannot be inferred from downstream TLS alone.",
+      "proposed_predicate": "when bound: valid_origin(message) and freshness_ok(proof, trusted_clock_or_replay_state)",
+      "required_attributes": "Integrity-bound origin; nonce/timestamp or sequence; clock tolerance or replay state",
+      "trusted_attribute_source": "Verified ingress security mechanism and local trusted clock/replay cache; not fabricated message fields.",
+      "pep": "CSMS ingress before use",
+      "expected_allow": "Accept fresh authenticated request if other required predicates pass.",
+      "expected_deny": "Bound freshness check fails or required proof unavailable at runtime: reject new request.",
+      "unmet_binding_prerequisite": "No verifiable freshness field: this check is Not instantiated; overall design remains Undetermined until a policy is explicitly accepted.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "A previously seen integrity-bound nonce repeats: intended DENY only in a bound implementation.",
+      "validation_limit": "No signature/nonce field assumed to exist in actual API.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A2-SITE",
+      "pattern": "A2",
+      "source_ids": [
+        "S-P1-86",
+        "S-P2-K-PROFILES",
+        "S-P2-K-ROLES"
+      ],
+      "applicability_condition": "EMS-to-station hop, site membership and authenticated origin are identified.",
+      "existing_baseline": "Applicable OCPP profile-purpose, stacking, composite-limit and external-constraints role restrictions are existing controls. They do not alone establish a particular EMS principal’s site/target grant.",
+      "not_established_premise": "External-limit capability does not establish that its origin is the authorized site EMS.",
+      "proposed_predicate": "authorized_site_controller(subject, site) and target_in_site(target, site)",
+      "required_attributes": "Authenticated EMS principal; site/target identities; controller grants",
+      "trusted_attribute_source": "Site operator trust registry and actual EMS hop security binding.",
+      "pep": "Station-side or field ingress gateway",
+      "expected_allow": "Accept only for authorized controller and target site.",
+      "expected_deny": "Unknown/unauthorized site controller: reject new command if deployed gate exists.",
+      "unmet_binding_prerequisite": "Missing medium/authentication/PEP: Undetermined; no direct EVSE–Grid session inferred.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "EMS authenticated for site A requests a station in site B: intended DENY.",
+      "validation_limit": "EMS protocol, medium and enforceable endpoint remain unverified.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A2-ENVELOPE",
+      "pattern": "A2",
+      "source_ids": [
+        "S-P1-86",
+        "S-P2-K-PROFILES",
+        "S-P2-K-ROLES"
+      ],
+      "applicability_condition": "An operator explicitly selects a stricter request-admission envelope. The object is a requested upper bound, with units, time and power direction resolved. Applicable OCPP aggregation remains in force.",
+      "existing_baseline": "K §3.2–3.5 defines profile purposes/stacking and TxProfile precedence. SC.01 bounds the composite actual limit by the lowest merged available power/current. A higher requested cap alone does not imply higher actual output.",
+      "not_established_premise": "A deployment may choose to reject an input cap outside its configured admission envelope even when standard composition would safely constrain the resulting output. That stricter input policy is optional.",
+      "proposed_predicate": "when stricter_admission_selected: requested_upper_bound belongs_to configured_request_envelope(site, target, direction, time)",
+      "required_attributes": "Explicit policy selection; requested upper bound; site/target; configured request envelope; units, time and power direction",
+      "trusted_attribute_source": "Operator-defined admission envelope and policy selection, authenticated EMS input and trusted local context. The actual limit remains subject to applicable standard processing.",
+      "pep": "Station-side command intake or controllable field gateway",
+      "expected_allow": "If selected, admit only a request within the stricter input envelope; then process it under the applicable OCPP rules. If not selected, omit this optional predicate before evaluation.",
+      "expected_deny": "If selected, reject a new out-of-envelope request. This is stricter deployment admission, not evidence that standard composition would exceed a safe output limit.",
+      "unmet_binding_prerequisite": "Unresolved units, object semantics, direction or policy selection: Undetermined binding. No universal min() rule for bidirectional control is inferred.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "A requested cap exceeds the configured admission envelope. The optional policy rejects that request, although a lower applicable standard constraint could already limit actual output.",
+      "validation_limit": "No numerical envelope, observed overoutput or blocking result is claimed. A requested maximum is not an immediate power setpoint.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A2-PRECEDENCE",
+      "pattern": "A2",
+      "source_ids": [
+        "S-P1-86",
+        "S-P2-K-PROFILES",
+        "S-P2-K-ROLES"
+      ],
+      "applicability_condition": "The deployment identifies the actor, target, affected constraint and any proposed control-authority change; corresponding grants are configured.",
+      "existing_baseline": "OCPP already defines profile-purpose/stacking precedence and the SC.01 composite bound. K01.FR.22 forbids CSMS from assigning the ExternalConstraints purpose in SetChargingProfileRequest.",
+      "not_established_premise": "The source role and a compliant profile purpose do not alone establish permission for a particular principal to change a site’s constraint ownership or control authority.",
+      "proposed_predicate": "authorized_constraint_change(subject, site, target, constraint_owner, requested_authority_change)",
+      "required_attributes": "Authenticated principal; site/target; constraint owner; requested change; authorized control-ownership grants and policy version",
+      "trusted_attribute_source": "Site operator authority registry and authenticated provenance of the affected control. OCPP purpose/stacking rules remain separate baseline processing.",
+      "pep": "Controllable station-side intake before admitting a constraint/control-authority change",
+      "expected_allow": "Admit only an authorized change, then apply the relevant standard purpose, stacking and composite-limit rules.",
+      "expected_deny": "Reject a new change outside the principal’s granted constraint or control authority.",
+      "unmet_binding_prerequisite": "Unknown authority root, constraint owner or grant semantics: Undetermined binding. Do not invent a global EMS-over-CSMS or CSMS-over-EMS order.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "An identified EMS attempts to change a constraint owned by another controller without the required grant: intended denial before the proposed change is accepted.",
+      "validation_limit": "The added predicate concerns source authorization and authority changes. It is not a replacement or validation of OCPP profile precedence and has not been implemented.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A2-PROVENANCE",
+      "pattern": "A2",
+      "source_ids": [
+        "S-P1-86",
+        "S-P2-K-PROFILES",
+        "S-P2-K-ROLES"
+      ],
+      "applicability_condition": "Actual EMS message has a verifiable origin/integrity binding; freshness capability separately known.",
+      "existing_baseline": "Applicable OCPP controls cover their defined session and profile-processing scope. Protection of a different EMS hop requires its own verified origin/integrity binding.",
+      "not_established_premise": "Receipt/reporting of a limit does not establish original-message integrity.",
+      "proposed_predicate": "origin_bound_to_authorized_ems(message) and integrity_valid(message); when freshness is required: freshness_ok with verifiable evidence. Missing required evidence denies a new request in an instantiated policy.",
+      "required_attributes": "Origin binding; content; verifier; freshness metadata if supported",
+      "trusted_attribute_source": "Actual protocol endpoint trust chain or authenticated local channel; validated source configuration.",
+      "pep": "EMS receiving endpoint or trusted field gateway",
+      "expected_allow": "Allow only after configured provenance checks pass.",
+      "expected_deny": "Invalid integrity/origin: reject new message.",
+      "unmet_binding_prerequisite": "No verifiable mechanism: Undetermined; do not label plaintext or unsigned by default.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "Reported numeric limit is intact but verified sender is not the authorized EMS: intended DENY.",
+      "validation_limit": "No signature added to existing messages and no transport replacement claimed.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A3-PRINCIPAL",
+      "pattern": "A3",
+      "source_ids": [
+        "S-A3-ASSUMPTION"
+      ],
+      "applicability_condition": "Product actually has independent identifiable SECC/OCPP processes and a controllable IPC boundary.",
+      "existing_baseline": "Protocol roles do not establish product process isolation or IPC.",
+      "not_established_premise": "Trusted caller identity across the internal boundary is unverified.",
+      "proposed_predicate": "ipc_caller_bound_to_authorized_process(peer_credential, channel)",
+      "required_attributes": "Process identity; owner; IPC channel; token/peer credentials if actually provided",
+      "trusted_attribute_source": "Trusted OS or product IPC security mechanism; never a payload-only claimed process name.",
+      "pep": "Hypothetical privileged IPC gate",
+      "expected_allow": "If realized, allow only an authorized bound caller.",
+      "expected_deny": "If realized, deny unauthorized caller before forwarding the new internal message.",
+      "unmet_binding_prerequisite": "No IPC boundary evidence: hypothetical / Undetermined. Monolithic unseparated implementation: this pattern Not applicable.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "A process outside the permitted SECC identity sends a control message: intended DENY in a hypothetical bound product.",
+      "validation_limit": "Hypothetical architecture; actual charger implementation evidence is unavailable. No product, process isolation or token implementation verified.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Hypothetical design assumption"
+    },
+    {
+      "id": "A3-TYPE",
+      "pattern": "A3",
+      "source_ids": [
+        "S-A3-ASSUMPTION"
+      ],
+      "applicability_condition": "Verified product message schema and principal roles are available.",
+      "existing_baseline": "No station-local schema/allowlist is established by ISO/OCPP role naming.",
+      "not_established_premise": "An authenticated internal process need not be entitled to every message type.",
+      "proposed_predicate": "ipc_message_type in allowed_types(caller_role, receiving_module)",
+      "required_attributes": "Typed IPC message; caller role; allowlist version",
+      "trusted_attribute_source": "Product-owned schema and reviewed role allowlist, maintained at the IPC gate.",
+      "pep": "Hypothetical local IPC dispatcher",
+      "expected_allow": "If realized, allow well-formed permitted message type.",
+      "expected_deny": "If realized, reject unknown type or forbidden caller/type combination.",
+      "unmet_binding_prerequisite": "Absent schema/dispatcher control: Undetermined.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "Status-only process attempts a control-command type: intended DENY.",
+      "validation_limit": "Hypothetical architecture; actual charger implementation evidence is unavailable. No real IPC message names or implemented allowlist invented.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Hypothetical design assumption"
+    },
+    {
+      "id": "A3-STATE",
+      "pattern": "A3",
+      "source_ids": [
+        "S-A3-ASSUMPTION"
+      ],
+      "applicability_condition": "State authority and explicit SECC-state-to-OCPP-action mapping are provided.",
+      "existing_baseline": "Separate protocol roles do not prove a vendor state/action coupling.",
+      "not_established_premise": "Permissible downstream action under current station state is not established.",
+      "proposed_predicate": "permitted_transition(trusted_local_state, proposed_internal_action)",
+      "required_attributes": "Authoritative state; action; transition version",
+      "trusted_attribute_source": "Approved product state machine and trusted local state owner; not arbitrary self-reported state.",
+      "pep": "Hypothetical IPC gate before state/action propagation",
+      "expected_allow": "If realized, permit defined allowed transition.",
+      "expected_deny": "If realized, reject incompatible or undefined state/action pair.",
+      "unmet_binding_prerequisite": "Missing state mapping: Undetermined; no implied standardized IPC action.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "A product-defined action is proposed in a disallowed local state: intended DENY.",
+      "validation_limit": "Hypothetical architecture; actual charger implementation evidence is unavailable. No implementation, model checking or transition test performed.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Hypothetical design assumption"
+    },
+    {
+      "id": "A3-INTEGRITY",
+      "pattern": "A3",
+      "source_ids": [
+        "S-A3-ASSUMPTION"
+      ],
+      "applicability_condition": "Actual IPC security mechanism and freshness semantics are available.",
+      "existing_baseline": "No universal SECC–OCPP IPC integrity/freshness obligation is established here.",
+      "not_established_premise": "Integrity and replay resistance of internal state/control messages are unverified.",
+      "proposed_predicate": "ipc_integrity_valid(message, peer_binding) and freshness_ok when explicitly required",
+      "required_attributes": "Integrity proof or OS channel property; peer binding; freshness state if present",
+      "trusted_attribute_source": "Trusted product IPC/OS mechanism and protected replay state, if provided.",
+      "pep": "Hypothetical local IPC gate",
+      "expected_allow": "If realized, allow integrity-valid fresh message under configured policy.",
+      "expected_deny": "If realized, reject failed integrity/freshness check.",
+      "unmet_binding_prerequisite": "Unavailable IPC mechanism: hypothetical / Undetermined; not a proved security gap.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "Integrity validation fails for an internal message: intended DENY in a realizable gate.",
+      "validation_limit": "Hypothetical architecture; actual charger implementation evidence is unavailable. No claim that certificates are necessary or implemented for local IPC.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Hypothetical design assumption"
+    },
+    {
+      "id": "A4-ADMISSION",
+      "pattern": "A4",
+      "source_ids": [
+        "S-P2-TLS"
+      ],
+      "applicability_condition": "Access gateway has trusted device identity and access context observable independently of encrypted application content.",
+      "existing_baseline": "Wireless access segment differs from endpoint-to-endpoint OCPP TLS/authentication.",
+      "not_established_premise": "A valid OCPP peer is not automatically approved for every access context.",
+      "proposed_predicate": "approved_device(device) and allowed_access_context(device, observed_network_context)",
+      "required_attributes": "Device identity; access network/context; approved context list",
+      "trusted_attribute_source": "Authenticated access-management source and approved device registry; untrusted modem metadata alone is insufficient.",
+      "pep": "Controllable access gateway",
+      "expected_allow": "Admit only approved device/context combination.",
+      "expected_deny": "Deny new access/session attempt under the bound access policy.",
+      "unmet_binding_prerequisite": "No trusted context or gateway control: Undetermined; no inferred application-message access.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "Approved station appears through a disallowed access context: intended admission DENY.",
+      "validation_limit": "No observed access-control deployment or stronger-than-baseline performance claim.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A4-BINDING",
+      "pattern": "A4",
+      "source_ids": [
+        "S-P2-TLS"
+      ],
+      "applicability_condition": "A trustworthy binding relates access identity to a session authenticated at an OCPP TLS endpoint.",
+      "existing_baseline": "P2/P3 authenticate the OCPP session; encrypted application traffic does not expose its identity to every conduit.",
+      "not_established_premise": "Cross-layer device/session binding is not established by mere coexistence of access authentication and TLS.",
+      "proposed_predicate": "bound(access_device_identity, endpoint_session_identity) and context_still_valid(session)",
+      "required_attributes": "Access identity; endpoint identity/session; binding lifetime; revocation/context state",
+      "trusted_attribute_source": "Trusted OCPP endpoint or management controller plus authenticated access-management feed.",
+      "pep": "Endpoint policy gate, or gateway supplied with authenticated endpoint assertions",
+      "expected_allow": "Admit/revalidate new session requests when binding and context remain valid.",
+      "expected_deny": "Reject new authorization when required binding fails; existing-session action must be separately specified.",
+      "unmet_binding_prerequisite": "Gateway cannot observe/authenticate endpoint info: Undetermined, not magic TLS inspection.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "Access identity and authenticated endpoint identity fail the configured binding: intended DENY.",
+      "validation_limit": "No assertion that TLS is terminated at the modem or that session context is currently exported.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A4-PROFILE",
+      "pattern": "A4",
+      "source_ids": [
+        "S-DOWNGRADE",
+        "S-P2-TLS"
+      ],
+      "applicability_condition": "Deployment elects a no-P3-to-P2 policy and can reliably enforce endpoint SecurityProfile configuration.",
+      "existing_baseline": "Baseline already forbids P2/P3→P1 through OCPP. P3→P2 is allowed only when AllowSecurityProfileDowngrade is implemented and true.",
+      "not_established_premise": "Whether a site elects the stricter permitted-transition policy is a deployment decision.",
+      "proposed_predicate": "when no_downgrade selected: requested_profile must not lower current_approved_profile; specifically forbid P3→P2",
+      "required_attributes": "Current/approved/requested security profile; authorized configuration change; capability flag",
+      "trusted_attribute_source": "Trusted endpoint configuration state and operator-approved management policy.",
+      "pep": "OCPP endpoint or trusted configuration controller; access gateway only if it truly controls that configuration",
+      "expected_allow": "Permit same or stronger approved profile under configured policy.",
+      "expected_deny": "Reject newly requested P3→P2 when no-downgrade policy selected.",
+      "unmet_binding_prerequisite": "Unknown profile observability/control: Undetermined; baseline P2/P3→P1 rule is not an added contribution.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "A configured P3 endpoint requests P2: intended DENY under the optional stricter policy.",
+      "validation_limit": "This is configuration hardening; no novel downgrade algorithm or tested enforcement.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    },
+    {
+      "id": "A4-TLS",
+      "pattern": "A4",
+      "source_ids": [
+        "S-P2-TLS"
+      ],
+      "applicability_condition": "Deployment selects TLS1.3-only and both required endpoints support it under an explicit operational policy.",
+      "existing_baseline": "OCPP minimum is TLS1.2; P2/P3 already protect the session.",
+      "not_established_premise": "Stricter local TLS-version acceptance is not a universal OCPP requirement.",
+      "proposed_predicate": "when tls13_only selected: negotiated_tls_version is TLS1.3",
+      "required_attributes": "Endpoint capability; negotiated TLS version; policy version",
+      "trusted_attribute_source": "Local trusted TLS endpoint state and approved deployment configuration; not an unauthenticated network hint.",
+      "pep": "Actual TLS endpoint or trusted endpoint controller",
+      "expected_allow": "Permit new session using the chosen supported profile/version.",
+      "expected_deny": "Reject new session failing configured TLS1.3-only floor.",
+      "unmet_binding_prerequisite": "No support/control or incompatible required peer: not deployable as specified; resolve policy explicitly before activation.",
+      "failure_scope": "If instantiated trusted PEP and required attributes are unavailable: deny the new request only. If PEP is unavailable, denial requires an independent trusted gate; otherwise enforcement is unavailable. Existing charging follows separately specified safety handling.",
+      "reasoning_example": "Peer negotiates TLS1.2 in a TLS1.3-only deployment: intended rejection, although TLS1.2 may satisfy baseline OCPP.",
+      "validation_limit": "No claim TLS1.3 is universally required, faster in this system, or implemented here.",
+      "implementation_status": "Not demonstrated",
+      "design_status": "Conditional design specification"
+    }
+  ],
+  "ocpp_source_files": [
+    {
+      "source_id": "OCPP-P1-ED4",
+      "filename": "OCPP-2.0.1_edition4_part1_architecture_topology.pdf",
+      "title": "Part 1 - Architecture & Topology",
+      "edition": "Edition 4",
+      "date": "2025-12-03",
+      "pdf_page_count": 28,
+      "body_printed_page_count": "26",
+      "sha256": "65181a8fae27c249e93c12a89c4f4ed4855fb142919544ab0808327c92ff940e",
+      "provenance": "Source document; title-page edition/date directly inspected. The initial extraction source file has not been identified.",
+      "verification": "Only the cited source passages were inspected; no full requirements census is implied.",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "source_id": "OCPP-P2-ED4",
+      "filename": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "title": "Part 2 - Specification",
+      "edition": "Edition 4",
+      "date": "2025-12-03",
+      "pdf_page_count": 501,
+      "body_printed_page_count": "491",
+      "sha256": "2bd854c01abdf20290d016e05779f952655177f09fedff2149126921dd5557e2",
+      "provenance": "Source document; title-page edition/date directly inspected. The initial extraction source file has not been identified.",
+      "verification": "Only the cited source passages were inspected; no full requirements census is implied.",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "source_id": "OCPP-APP-V15",
+      "filename": "OCPP-2.0.1_edition4_part2_appendices_v15.pdf",
+      "title": "Part 2 - Appendices",
+      "edition": "v1.5",
+      "date": "2025-12-03",
+      "pdf_page_count": 48,
+      "body_printed_page_count": "46",
+      "sha256": "3a8a97133ed904047b128a9bbb906e110f899d42b9f99423c2df27e0327338b3",
+      "provenance": "Source document; title-page edition/date directly inspected. The initial extraction source file has not been identified.",
+      "verification": "Only the cited source passages were inspected; no full requirements census is implied.",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    }
+  ],
+  "title": "Conditional Zero Trust policy design for EV charging",
+  "edition_provenance_limit": "The identified OCPP Edition 4 documents are dated 2025-12-03. The source file used for the initial extraction has not been identified; no equivalence with 2020/2021 editions is asserted.",
+  "binding_rules": [
+    [
+      "Before deployment binding",
+      "Before deployment binding, missing role/schema/trusted attribute/controllable PEP yields Undetermined; a documented incompatible architecture yields Not applicable. Neither is an observed runtime DENY.",
+      "A missing design prerequisite is not an observed runtime denial."
+    ],
+    [
+      "Instantiated policy",
+      "Only for an instantiated, trusted, controllable PEP: accept a new command only when every configured required predicate is satisfied; a failed or unavailable required predicate denies that new command. Optional checks must be declared optional and omitted before policy evaluation, not bypassed opportunistically.",
+      "No opportunistic omission of unavailable mandatory attributes."
+    ],
+    [
+      "PEP failure",
+      "A failed PEP cannot block traffic itself. Denial on PEP failure requires an independently trusted enforcement gate. Otherwise enforcement is unavailable, with no fail-closed guarantee. Existing charging follows a separately specified local safety policy; no universal stop/de-energize action is inferred.",
+      "A failed PEP does not provide its own enforcement or guaranteed audit record."
+    ],
+    [
+      "Evidence scope",
+      "A documented topology is not proof that a specific admission predicate is required. A source that does not establish a predicate does not establish its absence in every standard or product. Controls on one hop do not automatically protect a different hop.",
+      "Applicability and protection objects must match the stated boundary."
+    ],
+    [
+      "Notation",
+      "lower-case predicate names are proposed abstract design terms, not OCPP fields, software APIs, implemented functions, or newly executed tests.",
+      "Implementation requires a schema, trust roots, observation and actual enforcement capability."
+    ],
+    [
+      "Certificate recovery",
+      "Under A00.FR.407, if .429 does not apply and the station has no valid certificate or its certification path is invalid, the CSMS shall terminate the connection. A00.FR.408 recommends logging InvalidChargingStationCertificate when .407 or .429 applies. Under .429, a CSMS explicitly configured for a specific expired-certificate station may admit BootNotification Pending and shall immediately initiate A02 renewal. Under .430, an expired-certificate station should attempt connection. No P2 recovery requirement or universal P3-only recovery rule follows.",
+      "Normal certificate-valid operation and the narrowly configured recovery exception remain distinct."
+    ],
+    [
+      "Edition provenance",
+      "The identified OCPP Edition 4 documents are dated 2025-12-03. The source file used for the initial extraction has not been identified; no equivalence with 2020/2021 editions is asserted.",
+      "Identified editions and hashes locate the current evidence; they do not identify the initial extraction file."
+    ],
+    [
+      "A1 prerequisite",
+      "Bind the ingress API, issuer, target-group/action grants and request semantics to an enforceable CSMS ingress.",
+      "No existing deployment or attack-blocking outcome is asserted."
+    ],
+    [
+      "A2 prerequisite",
+      "Identify the EMS protocol, site/target identity, actual principal and input provenance. Apply existing OCPP processing where applicable.",
+      "An optional stricter request-envelope policy is distinct from OCPP composition; an upper bound is not an immediate setpoint."
+    ],
+    [
+      "A3 assumption",
+      "Assume a separable station-local SECC–OCPP IPC boundary. Actual implementation evidence is unavailable.",
+      "Internal IPC is not the remote SECC–CSMS communication relation."
+    ],
+    [
+      "A4 prerequisite",
+      "Bind observed access identity to authenticated OCPP endpoint state; specify who can enforce profile/TLS configuration.",
+      "Encrypted application traffic is not inherently observable at a modem or access gateway."
+    ]
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "n_runs": 100,
+  "interpretation": {
+    "S1": "Modeled session-establishment security-processing delay under stated input distributions and distributed first-session starts; not incremental overhead versus an OCPP baseline.",
+    "S1_initialization": "Each EVSE first session is distributed Uniform(0, 300 s); simultaneous re-establishment is evaluated only in S1-burst.",
+    "S1_burst": "OCSP request latency from request submission through service completion (service plus queueing) in the separate 50% simultaneous re-establishment stress test."
+  },
+  "S1_security_processing_ms": {
+    "mean": 174.89672425750794,
+    "sd": 30.84432063407346,
+    "p50": 174.9036537434428,
+    "p95": 225.578814076358,
+    "p99": 246.87267417572374,
+    "max": 325.17752029805314
+  },
+  "S1_seed_mean_ci": [
+    174.7721714885097,
+    175.02353714187535
+  ],
+  "S1_ci_resampling_unit": "seed-level mean",
+  "S1_pct_message_timeout_context": 0.5829890808583598,
+  "EVSE_sensitivity": {
+    "50": [
+      174.89692490040753,
+      0.6516666291833603
+    ],
+    "100": [
+      174.95207650321314,
+      0.4894740489100903
+    ],
+    "500": [
+      174.97169113114944,
+      0.23101038240279867
+    ],
+    "1000": [
+      175.00362898099408,
+      0.15227052555301956
+    ]
+  },
+  "burst_ocsp_request_latency": {
+    "50": [
+      20.34737918455331,
+      29.01376658571571
+    ],
+    "100": [
+      32.436659801324396,
+      53.457994230327586
+    ],
+    "500": [
+      257.7649358904138,
+      486.39283251410154
+    ],
+    "1000": [
+      563.0443536731299,
+      1074.985983996891
+    ]
+  },
+  "burst_ocsp_capacity_sweep": {
+    "EVSE=50;cap=2": {
+      "mean_ms": 85.06591337096255,
+      "p95_ms": 156.46672506318936,
+      "queueing_share_pct": 76.48882001327331,
+      "concurrent_requests_per_server": 12.5
+    },
+    "EVSE=100;cap=2": {
+      "mean_ms": 200.28580016566505,
+      "p95_ms": 376.0022396799346,
+      "queueing_share_pct": 90.01426961698876,
+      "concurrent_requests_per_server": 25.0
+    },
+    "EVSE=500;cap=2": {
+      "mean_ms": 1179.543972887389,
+      "p95_ms": 2253.5763744187925,
+      "queueing_share_pct": 98.30442946937856,
+      "concurrent_requests_per_server": 125.0
+    },
+    "EVSE=1000;cap=2": {
+      "mean_ms": 2428.3675089576595,
+      "p95_ms": 4631.5364727491105,
+      "queueing_share_pct": 99.17640143321698,
+      "concurrent_requests_per_server": 250.0
+    },
+    "EVSE=50;cap=4": {
+      "mean_ms": 32.93638050595539,
+      "p95_ms": 57.93367434430541,
+      "queueing_share_pct": 39.27687349742726,
+      "concurrent_requests_per_server": 6.2
+    },
+    "EVSE=100;cap=4": {
+      "mean_ms": 84.52755861228636,
+      "p95_ms": 152.45923344685588,
+      "queueing_share_pct": 76.33907765899566,
+      "concurrent_requests_per_server": 12.5
+    },
+    "EVSE=500;cap=4": {
+      "mean_ms": 561.7171962170884,
+      "p95_ms": 1072.7632975167473,
+      "queueing_share_pct": 96.43948945578113,
+      "concurrent_requests_per_server": 62.5
+    },
+    "EVSE=1000;cap=4": {
+      "mean_ms": 1180.2951289047483,
+      "p95_ms": 2256.5246128255694,
+      "queueing_share_pct": 98.30550855373275,
+      "concurrent_requests_per_server": 125.0
+    },
+    "EVSE=50;cap=8": {
+      "mean_ms": 20.34737918455331,
+      "p95_ms": 29.01376658571571,
+      "queueing_share_pct": 1.7072428906078672,
+      "concurrent_requests_per_server": 3.1
+    },
+    "EVSE=100;cap=8": {
+      "mean_ms": 32.436659801324396,
+      "p95_ms": 53.457994230327586,
+      "queueing_share_pct": 38.341370158022876,
+      "concurrent_requests_per_server": 6.2
+    },
+    "EVSE=500;cap=8": {
+      "mean_ms": 257.7649358904138,
+      "p95_ms": 486.39283251410154,
+      "queueing_share_pct": 92.24099277471052,
+      "concurrent_requests_per_server": 31.2
+    },
+    "EVSE=1000;cap=8": {
+      "mean_ms": 563.0443536731299,
+      "p95_ms": 1074.985983996891,
+      "queueing_share_pct": 96.44788197066073,
+      "concurrent_requests_per_server": 62.5
+    },
+    "EVSE=50;cap=16": {
+      "mean_ms": 19.984414691954125,
+      "p95_ms": 28.438979741675947,
+      "queueing_share_pct": -0.07798731304424708,
+      "concurrent_requests_per_server": 1.6
+    },
+    "EVSE=100;cap=16": {
+      "mean_ms": 20.151085093681615,
+      "p95_ms": 28.573000151474492,
+      "queueing_share_pct": 0.7497615784918119,
+      "concurrent_requests_per_server": 3.1
+    },
+    "EVSE=500;cap=16": {
+      "mean_ms": 110.0397180675206,
+      "p95_ms": 200.29876817915576,
+      "queueing_share_pct": 81.82474441843992,
+      "concurrent_requests_per_server": 15.6
+    },
+    "EVSE=1000;cap=16": {
+      "mean_ms": 257.77761647603666,
+      "p95_ms": 486.459885383579,
+      "queueing_share_pct": 92.24137445546626,
+      "concurrent_requests_per_server": 31.2
+    },
+    "EVSE=50;cap=32": {
+      "mean_ms": 19.984414691954125,
+      "p95_ms": 28.438979741675947,
+      "queueing_share_pct": -0.07798731304424708,
+      "concurrent_requests_per_server": 0.8
+    },
+    "EVSE=100;cap=32": {
+      "mean_ms": 20.026923285376345,
+      "p95_ms": 28.34652802540161,
+      "queueing_share_pct": 0.13443545467617676,
+      "concurrent_requests_per_server": 1.6
+    },
+    "EVSE=500;cap=32": {
+      "mean_ms": 42.54042971099456,
+      "p95_ms": 70.07997534068777,
+      "queueing_share_pct": 52.98590038729438,
+      "concurrent_requests_per_server": 7.8
+    },
+    "EVSE=1000;cap=32": {
+      "mean_ms": 110.25688763866451,
+      "p95_ms": 200.07780981723158,
+      "queueing_share_pct": 81.8605436555181,
+      "concurrent_requests_per_server": 15.6
+    },
+    "EVSE=50;cap=64": {
+      "mean_ms": 19.984414691954125,
+      "p95_ms": 28.438979741675947,
+      "queueing_share_pct": -0.07798731304424708,
+      "concurrent_requests_per_server": 0.4
+    },
+    "EVSE=100;cap=64": {
+      "mean_ms": 20.026923285376345,
+      "p95_ms": 28.34652802540161,
+      "queueing_share_pct": 0.13443545467617676,
+      "concurrent_requests_per_server": 0.8
+    },
+    "EVSE=500;cap=64": {
+      "mean_ms": 20.24278682305309,
+      "p95_ms": 28.581002002023023,
+      "queueing_share_pct": 1.1993744990516735,
+      "concurrent_requests_per_server": 3.9
+    },
+    "EVSE=1000;cap=64": {
+      "mean_ms": 42.512102168095375,
+      "p95_ms": 69.74583496277849,
+      "queueing_share_pct": 52.95457298037436,
+      "concurrent_requests_per_server": 7.8
+    },
+    "EVSE=50;cap=128": {
+      "mean_ms": 19.984414691954125,
+      "p95_ms": 28.438979741675947,
+      "queueing_share_pct": -0.07798731304424708,
+      "concurrent_requests_per_server": 0.2
+    },
+    "EVSE=100;cap=128": {
+      "mean_ms": 20.026923285376345,
+      "p95_ms": 28.34652802540161,
+      "queueing_share_pct": 0.13443545467617676,
+      "concurrent_requests_per_server": 0.4
+    },
+    "EVSE=500;cap=128": {
+      "mean_ms": 19.981652960743276,
+      "p95_ms": 28.24014357087245,
+      "queueing_share_pct": -0.09181942701522106,
+      "concurrent_requests_per_server": 2.0
+    },
+    "EVSE=1000;cap=128": {
+      "mean_ms": 20.18114113787734,
+      "p95_ms": 28.461686476247323,
+      "queueing_share_pct": 0.8975762898628262,
+      "concurrent_requests_per_server": 3.9
+    }
+  },
+  "S1_input_sensitivity": [
+    {
+      "input": "mTLS handshake mean",
+      "factor": 0.5,
+      "value_ms": 75.0,
+      "s1_mean_ms": 100.05,
+      "ci_low_ms": 99.92,
+      "ci_high_ms": 100.17,
+      "pct_message_timeout": 0.333
+    },
+    {
+      "input": "mTLS handshake mean",
+      "factor": 1.0,
+      "value_ms": 150.0,
+      "s1_mean_ms": 174.9,
+      "ci_low_ms": 174.77,
+      "ci_high_ms": 175.02,
+      "pct_message_timeout": 0.583
+    },
+    {
+      "input": "mTLS handshake mean",
+      "factor": 2.0,
+      "value_ms": 300.0,
+      "s1_mean_ms": 324.89,
+      "ci_low_ms": 324.77,
+      "ci_high_ms": 325.02,
+      "pct_message_timeout": 1.083
+    },
+    {
+      "input": "mTLS handshake mean",
+      "factor": 4.0,
+      "value_ms": 600.0,
+      "s1_mean_ms": 624.89,
+      "ci_low_ms": 624.77,
+      "ci_high_ms": 625.01,
+      "pct_message_timeout": 2.083
+    },
+    {
+      "input": "mTLS handshake mean",
+      "factor": 8.0,
+      "value_ms": 1200.0,
+      "s1_mean_ms": 1224.95,
+      "ci_low_ms": 1224.82,
+      "ci_high_ms": 1225.07,
+      "pct_message_timeout": 4.083
+    },
+    {
+      "input": "mTLS handshake mean",
+      "factor": 16.0,
+      "value_ms": 2400.0,
+      "s1_mean_ms": 2424.94,
+      "ci_low_ms": 2424.8,
+      "ci_high_ms": 2425.07,
+      "pct_message_timeout": 8.083
+    },
+    {
+      "input": "OCSP check mean",
+      "factor": 0.5,
+      "value_ms": 10.0,
+      "s1_mean_ms": 164.96,
+      "ci_low_ms": 164.84,
+      "ci_high_ms": 165.09,
+      "pct_message_timeout": 0.55
+    },
+    {
+      "input": "OCSP check mean",
+      "factor": 1.0,
+      "value_ms": 20.0,
+      "s1_mean_ms": 174.9,
+      "ci_low_ms": 174.77,
+      "ci_high_ms": 175.02,
+      "pct_message_timeout": 0.583
+    },
+    {
+      "input": "OCSP check mean",
+      "factor": 2.0,
+      "value_ms": 40.0,
+      "s1_mean_ms": 194.9,
+      "ci_low_ms": 194.78,
+      "ci_high_ms": 195.03,
+      "pct_message_timeout": 0.65
+    },
+    {
+      "input": "OCSP check mean",
+      "factor": 4.0,
+      "value_ms": 80.0,
+      "s1_mean_ms": 234.89,
+      "ci_low_ms": 234.77,
+      "ci_high_ms": 235.01,
+      "pct_message_timeout": 0.783
+    },
+    {
+      "input": "OCSP check mean",
+      "factor": 8.0,
+      "value_ms": 160.0,
+      "s1_mean_ms": 314.88,
+      "ci_low_ms": 314.76,
+      "ci_high_ms": 315.0,
+      "pct_message_timeout": 1.05
+    },
+    {
+      "input": "OCSP check mean",
+      "factor": 16.0,
+      "value_ms": 320.0,
+      "s1_mean_ms": 474.9,
+      "ci_low_ms": 474.78,
+      "ci_high_ms": 475.02,
+      "pct_message_timeout": 1.583
+    },
+    {
+      "input": "PE decision mean",
+      "factor": 0.5,
+      "value_ms": 2.5,
+      "s1_mean_ms": 172.38,
+      "ci_low_ms": 172.26,
+      "ci_high_ms": 172.5,
+      "pct_message_timeout": 0.575
+    },
+    {
+      "input": "PE decision mean",
+      "factor": 1.0,
+      "value_ms": 5.0,
+      "s1_mean_ms": 174.9,
+      "ci_low_ms": 174.77,
+      "ci_high_ms": 175.02,
+      "pct_message_timeout": 0.583
+    },
+    {
+      "input": "PE decision mean",
+      "factor": 2.0,
+      "value_ms": 10.0,
+      "s1_mean_ms": 179.89,
+      "ci_low_ms": 179.76,
+      "ci_high_ms": 180.02,
+      "pct_message_timeout": 0.6
+    },
+    {
+      "input": "PE decision mean",
+      "factor": 4.0,
+      "value_ms": 20.0,
+      "s1_mean_ms": 189.87,
+      "ci_low_ms": 189.71,
+      "ci_high_ms": 190.02,
+      "pct_message_timeout": 0.633
+    },
+    {
+      "input": "PE decision mean",
+      "factor": 8.0,
+      "value_ms": 40.0,
+      "s1_mean_ms": 209.94,
+      "ci_low_ms": 209.73,
+      "ci_high_ms": 210.13,
+      "pct_message_timeout": 0.7
+    },
+    {
+      "input": "PE decision mean",
+      "factor": 16.0,
+      "value_ms": 80.0,
+      "s1_mean_ms": 249.99,
+      "ci_low_ms": 249.64,
+      "ci_high_ms": 250.33,
+      "pct_message_timeout": 0.833
+    }
+  ]
+}

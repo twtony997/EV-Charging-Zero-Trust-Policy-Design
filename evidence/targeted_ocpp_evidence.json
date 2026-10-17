@@ -1,0 +1,177 @@
+{
+  "title": "OCPP source evidence for certificate recovery and external-limit admission",
+  "scope": "Targeted interpretation of the identified clauses only. Normative standard behavior and proposed admission policy are recorded separately.",
+  "source": {
+    "source_id": "OCPP-P2-ED4",
+    "filename": "OCPP-2.0.1_edition4_part2_specification.pdf",
+    "title": "OCPP 2.0.1, Part 2 — Specification",
+    "publisher": "Open Charge Alliance",
+    "edition": "Edition 4",
+    "publication_date": "2025-12-03",
+    "pdf_pages": 501,
+    "body_printed_pages": 491,
+    "sha256": "2bd854c01abdf20290d016e05779f952655177f09fedff2149126921dd5557e2",
+    "provenance": "Author-supplied standards document. The edition, date and cited pages were inspected directly. This identification does not establish which edition was used to create an earlier corpus extraction.",
+    "redistributed_in_package": false
+  },
+  "evidence": [
+    {
+      "evidence_id": "OCPP-E08",
+      "clause": "A00.FR.407, A00.FR.408, A00.FR.429, A00.FR.430",
+      "pdf_pages": [
+        34,
+        36
+      ],
+      "printed_pages": [
+        24,
+        26
+      ],
+      "patterns": [
+        "A4",
+        "certificate-valid lifecycle scope"
+      ],
+      "baseline": [
+        {
+          "id": "A00.FR.407",
+          "modality": "SHALL",
+          "precondition": "A00.FR.429 does not apply, and the station has no valid certificate or its certification path is invalid.",
+          "paraphrase": "The CSMS must terminate the connection."
+        },
+        {
+          "id": "A00.FR.408",
+          "modality": "RECOMMENDED",
+          "precondition": "A00.FR.407 or A00.FR.429 applies.",
+          "paraphrase": "The CSMS is recommended to log an InvalidChargingStationCertificate security event."
+        },
+        {
+          "id": "A00.FR.429",
+          "modality": "MAY; SHALL",
+          "precondition": "The station certificate has expired and the CSMS is explicitly configured to accept a connection from that specific station with that expired certificate.",
+          "paraphrase": "The CSMS may admit the station in BootNotification Pending; after admission, it must immediately execute A02, the CSMS-requested station-certificate update, to renew the certificate."
+        },
+        {
+          "id": "A00.FR.430",
+          "modality": "SHOULD",
+          "precondition": "The station certificate has expired.",
+          "paraphrase": "The station should still attempt a connection and leave acceptance to the CSMS."
+        }
+      ],
+      "claim_limit": "These clauses do not require using Security Profile 2 for this exception. They also do not establish a universal statement that every certificate-recovery procedure must use Security Profile 3. The .429 exception is specific to configured expired-station-certificate recovery; it does not authorize unrestricted communication with any invalid certificate.",
+      "scientific_use": "Separate normal certificate-valid operation from the narrowly configured recovery exception. Any stricter deployment policy must account for its compatibility and recovery consequences."
+    },
+    {
+      "evidence_id": "OCPP-E09",
+      "clause": "K, section 3.2, Charging profile purposes",
+      "pdf_pages": [
+        251
+      ],
+      "printed_pages": [
+        241
+      ],
+      "patterns": [
+        "A2"
+      ],
+      "baseline": [
+        {
+          "id": "TxProfile / TxDefaultProfile",
+          "modality": "Defined profile semantics",
+          "precondition": "The transaction-specific profile applies.",
+          "paraphrase": "TxProfile overrides TxDefaultProfile during the current transaction or until the TxProfile expires, whichever occurs first."
+        },
+        {
+          "id": "ChargingStationExternalConstraints",
+          "modality": "Defined profile-purpose semantics",
+          "precondition": "An external system, rather than the CSMS, supplies a charging limit or schedule.",
+          "paraphrase": "The charging station reports that external limit or schedule using the ChargingStationExternalConstraints purpose."
+        }
+      ],
+      "claim_limit": "The purpose and transaction-priority semantics do not themselves authenticate the external EMS principal or authorize its site and target scope.",
+      "scientific_use": "Treat profile-purpose and transaction-priority behavior as existing OCPP baseline. Additional admission checks may bind a verifiable EMS identity to an authorized site, target and action."
+    },
+    {
+      "evidence_id": "OCPP-E10",
+      "clause": "K, sections 3.4–3.5, Stacking charging profiles / Combining Charging Profile Purposes",
+      "pdf_pages": [
+        252
+      ],
+      "printed_pages": [
+        242
+      ],
+      "patterns": [
+        "A2"
+      ],
+      "baseline": [
+        {
+          "id": "section 3.4",
+          "modality": "Defined stacking rules",
+          "precondition": "Multiple valid charging profiles have the same purpose.",
+          "paraphrase": "The schedule belonging to the higher stack level takes precedence over a lower-stack schedule. Multiple simultaneously valid profiles with the same purpose and stack level on the same EVSE are not allowed; an EVSE-zero profile is considered active on all EVSEs."
+        },
+        {
+          "id": "section 3.5",
+          "modality": "Defined composite-schedule rules",
+          "precondition": "Relevant leading profiles have a schedule period at the time and are valid according to validFrom and validTo.",
+          "paraphrase": "For each purpose, the leading profile is the valid one with the highest stack level. For each interval, the composite uses the lowest limit among those leading purposes, accounting for chargingRateUnits. If both TxProfile and TxDefaultProfile are valid, TxProfile prevails and TxDefaultProfile is excluded. ChargingStationMaxProfile applies to all EVSEs combined when the station has multiple EVSEs."
+        }
+      ],
+      "claim_limit": "The minimum applies after the stated purpose, stack, validity and transaction-selection rules; it is not a minimum over every received request. This page does not prove that every external EMS protocol implements or authenticates these semantics.",
+      "scientific_use": "A2 retains applicable OCPP composition and priority rules. Any proposed control-authority admission rule must be distinguished from the standard profile stack and purpose rules."
+    },
+    {
+      "evidence_id": "OCPP-E11",
+      "clause": "K, section 4, Table 93, SC.01",
+      "pdf_pages": [
+        256
+      ],
+      "printed_pages": [
+        246
+      ],
+      "patterns": [
+        "A2"
+      ],
+      "baseline": [
+        {
+          "id": "SC.01",
+          "modality": "SHALL",
+          "precondition": "Merging external schedules with the highest-stack OCPP profiles for the applicable purposes ChargingStationMaxProfile, ChargingStationExternalConstraints, and TxDefaultProfile or TxProfile.",
+          "paraphrase": "At every point in time, the resulting charging limit must not exceed the lowest available power or current in any of the schedules being merged. The table identifies safety as the purpose."
+        }
+      ],
+      "claim_limit": "This is an existing charging-limit safety constraint. It is not a new A2 aggregation mechanism, a general rule for all bidirectional control semantics, or proof of the authenticity of an external schedule.",
+      "scientific_use": "A2 admits authorized external inputs before they are processed by the applicable baseline rules. Authentication, site/target authorization and verifiable provenance remain distinct from limit composition."
+    },
+    {
+      "evidence_id": "OCPP-E12",
+      "clause": "K01.FR.22",
+      "pdf_pages": [
+        259
+      ],
+      "printed_pages": [
+        249
+      ],
+      "patterns": [
+        "A2"
+      ],
+      "baseline": [
+        {
+          "id": "K01.FR.22",
+          "modality": "SHALL NOT",
+          "precondition": "The CSMS issues SetChargingProfileRequest.",
+          "paraphrase": "The CSMS must not set chargingProfilePurpose to ChargingStationExternalConstraints. The accompanying note reserves this purpose for a charging limit or schedule set by an external system."
+        }
+      ],
+      "claim_limit": "The CSMS role restriction is an existing OCPP control. It is not an external-principal authentication rule and does not establish a universal authorization scheme for arbitrary non-OCPP EMS interfaces.",
+      "scientific_use": "Do not represent external constraints as an unrestricted CSMS profile purpose. Bind the verified external source to its permitted site, target and action before accepting it under the applicable protocol rules."
+    }
+  ],
+  "cap_and_setpoint_distinction": {
+    "interpretation": "A maximum-allowed-power or current limit is an upper bound, not an immediate demand to deliver that value. A requested external cap above a site cap does not by itself show actual output above the site cap when applicable composite-limit rules retain the lower cap.",
+    "additional_policy": "If a deployment rejects an excessive requested cap at admission even though standard composition would constrain output, that is an explicitly stricter deployment admission rule. It must not be presented as the only protection against an over-output attack already bounded by the baseline.",
+    "authority_and_observation": "Whether an input is a limit, setpoint, authority transfer or another action must be determined from the actual interface and authenticated schema/context. No actual EMS implementation or actuation behavior is established by these documentary checks."
+  },
+  "limits": [
+    "No implementation, attack-blocking or performance experiment is established by these source checks.",
+    "Non-OCPP EMS security and control semantics require the actual interface specification and verifiable attributes.",
+    "An admission decision is enforceable only when the designated PEP can mediate the relevant request and has trustworthy inputs."
+  ]
+}

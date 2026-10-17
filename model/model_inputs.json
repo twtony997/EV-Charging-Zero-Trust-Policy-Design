@@ -1,0 +1,75 @@
+{
+  "scope": "Assumed session-establishment processing and shared OCSP service model; not implemented A1-A4 performance or empirical attack effectiveness.",
+  "source_file": "simulation_code.py",
+  "simulation_duration_s": 7200,
+  "seeds": {
+    "first": 0,
+    "last": 99,
+    "runs": 100
+  },
+  "default_evse_count": 50,
+  "fleet_sizes": [
+    50,
+    100,
+    500,
+    1000
+  ],
+  "first_session_start_s": {
+    "distribution": "uniform",
+    "minimum": 0,
+    "maximum": 300
+  },
+  "reconnect_interval_s": {
+    "distribution": "uniform",
+    "minimum": 30,
+    "maximum": 300
+  },
+  "mtls_processing_s": {
+    "distribution": "normal",
+    "mean": 0.15,
+    "sd": 0.03,
+    "floor": 0.01
+  },
+  "pe_processing_s": {
+    "distribution": "exponential",
+    "mean": 0.005
+  },
+  "ocsp_service_s": {
+    "distribution": "normal",
+    "mean": 0.02,
+    "sd": 0.005,
+    "floor": 0.001
+  },
+  "ocsp_default_capacity": 8,
+  "ocsp_capacity_grid": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "burst_fraction": 0.5,
+  "message_timeout_context_s": 30,
+  "input_sensitivity_factors": [
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0
+  ],
+  "bootstrap": {
+    "unit": "seed-level mean",
+    "resamples": 2000,
+    "rng_seed": 12345
+  },
+  "aggregation": {
+    "default_mean": "pooled session observations",
+    "fleet_mean_sd": "100 seed-level means; sample SD",
+    "burst_mean_p95": "pooled request observations",
+    "capacity_mean_p95": "pooled request observations"
+  },
+  "dependencies": "Exact dependency versions for running the focused simulation are listed in requirements.txt."
+}

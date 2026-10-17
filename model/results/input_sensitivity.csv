@@ -1,0 +1,19 @@
+input,factor,value_ms,s1_mean_ms,ci_low_ms,ci_high_ms,pct_message_timeout
+mTLS handshake mean,0.5,75.0,100.05,99.92,100.17,0.333
+mTLS handshake mean,1.0,150.0,174.9,174.77,175.02,0.583
+mTLS handshake mean,2.0,300.0,324.89,324.77,325.02,1.083
+mTLS handshake mean,4.0,600.0,624.89,624.77,625.01,2.083
+mTLS handshake mean,8.0,1200.0,1224.95,1224.82,1225.07,4.083
+mTLS handshake mean,16.0,2400.0,2424.94,2424.8,2425.07,8.083
+OCSP check mean,0.5,10.0,164.96,164.84,165.09,0.55
+OCSP check mean,1.0,20.0,174.9,174.77,175.02,0.583
+OCSP check mean,2.0,40.0,194.9,194.78,195.03,0.65
+OCSP check mean,4.0,80.0,234.89,234.77,235.01,0.783
+OCSP check mean,8.0,160.0,314.88,314.76,315.0,1.05
+OCSP check mean,16.0,320.0,474.9,474.78,475.02,1.583
+PE decision mean,0.5,2.5,172.38,172.26,172.5,0.575
+PE decision mean,1.0,5.0,174.9,174.77,175.02,0.583
+PE decision mean,2.0,10.0,179.89,179.76,180.02,0.6
+PE decision mean,4.0,20.0,189.87,189.71,190.02,0.633
+PE decision mean,8.0,40.0,209.94,209.73,210.13,0.7
+PE decision mean,16.0,80.0,249.99,249.64,250.33,0.833

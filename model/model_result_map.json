@@ -1,0 +1,37 @@
+[
+  {
+    "item": "Session processing distribution and summary",
+    "source": "results/simulation_summary.json",
+    "locator": "S1_security_processing_ms; S1_seed_mean_ci",
+    "input": "simulation_code.py run_overhead; model_inputs.json",
+    "limits": "Pooled tail percentiles are saved summary values; per-session samples are not archived."
+  },
+  {
+    "item": "Fleet-size sensitivity",
+    "source": "results/per_seed_results.csv",
+    "locator": "scenario=S1-sensitivity; EVSE=50,100,500,1000",
+    "input": "simulation_code.py EVSE_COUNTS; run_overhead",
+    "limits": "Average and sample SD of 100 seed means."
+  },
+  {
+    "item": "Concurrent OCSP burst",
+    "source": "results/simulation_summary.json",
+    "locator": "burst_ocsp_request_latency",
+    "input": "simulation_code.py run_burst; frac=0.5; cap=8",
+    "limits": "OCSP request latency includes service and queueing; pooled p95 is not mean per-seed p95."
+  },
+  {
+    "item": "OCSP capacity sensitivity",
+    "source": "results/ocsp_capacity_sweep.csv",
+    "locator": "28 fleet/capacity combinations; 100 seed rows each",
+    "input": "simulation_code.py CAP_GRID; run_burst",
+    "limits": "Results for capacities 2,4,8,16,32,64,128; only selected rows appear in the manuscript."
+  },
+  {
+    "item": "Processing-input sensitivity",
+    "source": "results/input_sensitivity.csv",
+    "locator": "18 rows: 3 means x 6 factors",
+    "input": "simulation_code.py SENS_INPUTS; SENS_FACTORS",
+    "limits": "Means and bootstrap bounds are rounded in the supplied CSV; no raw seed-level input-sweep means archived."
+  }
+]

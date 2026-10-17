@@ -1,0 +1,11 @@
+# Generated local and simulation outputs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# Do not accidentally publish new experimental runs
+model/rerun_outputs/
+model/outputs/

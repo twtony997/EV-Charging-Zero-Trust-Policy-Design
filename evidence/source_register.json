@@ -1,0 +1,127 @@
+{
+  "description": "Primary source editions, hashes and clause applicability for the four policy specifications. Standard PDFs are external copyrighted dependencies and are not redistributed.",
+  "edition_limit": "The identified OCPP Edition 4 documents are dated 2025-12-03. The source file used for the initial extraction has not been identified; no equivalence with 2020/2021 editions is asserted.",
+  "documents": [
+    {
+      "source_id": "OCPP-P1-ED4",
+      "filename": "OCPP-2.0.1_edition4_part1_architecture_topology.pdf",
+      "title": "Part 1 - Architecture & Topology",
+      "edition": "Edition 4",
+      "date": "2025-12-03",
+      "pdf_page_count": 28,
+      "body_printed_page_count": "26",
+      "sha256": "65181a8fae27c249e93c12a89c4f4ed4855fb142919544ab0808327c92ff940e",
+      "provenance": "Source document; title-page edition/date directly inspected. The initial extraction source file has not been identified.",
+      "verification": "Only the cited source passages were inspected; no full requirements census is implied.",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "source_id": "OCPP-P2-ED4",
+      "filename": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "title": "Part 2 - Specification",
+      "edition": "Edition 4",
+      "date": "2025-12-03",
+      "pdf_page_count": 501,
+      "body_printed_page_count": "491",
+      "sha256": "2bd854c01abdf20290d016e05779f952655177f09fedff2149126921dd5557e2",
+      "provenance": "Source document; title-page edition/date directly inspected. The initial extraction source file has not been identified.",
+      "verification": "Only the cited source passages were inspected; no full requirements census is implied.",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "source_id": "OCPP-APP-V15",
+      "filename": "OCPP-2.0.1_edition4_part2_appendices_v15.pdf",
+      "title": "Part 2 - Appendices",
+      "edition": "v1.5",
+      "date": "2025-12-03",
+      "pdf_page_count": 48,
+      "body_printed_page_count": "46",
+      "sha256": "3a8a97133ed904047b128a9bbb906e110f899d42b9f99423c2df27e0327338b3",
+      "provenance": "Source document; title-page edition/date directly inspected. The initial extraction source file has not been identified.",
+      "verification": "Only the cited source passages were inspected; no full requirements census is implied.",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    }
+  ],
+  "policy_sources": [
+    {
+      "id": "S-P1-85",
+      "source": "OCPP 2.0.1 Edition 4 Part 1",
+      "edition": "2025-12-03",
+      "locator": "§8.5; PDF p.18 / printed p.16",
+      "scope": "Recognizes non-OCPP DSO signals (for example OpenADR/OSCP) to CSMS and subsequent OCPP profile/schedule delivery to the station. This topology passage does not specify the proposed ingress subject/group/action admission checks.",
+      "artifact": "OCPP-2.0.1_edition4_part1_architecture_topology.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-P1-86",
+      "source": "OCPP 2.0.1 Edition 4 Part 1",
+      "edition": "2025-12-03",
+      "locator": "§8.6; PDF pp.18–19 / printed pp.16–17",
+      "scope": "Recognizes parallel CSMS/EMS control and reporting of externally imposed limits. The EMS hop may use OCPP or another protocol. The applicable Part 2 smart-charging rules must also be considered; topology recognition alone does not establish actual EMS principal/site/target authorization.",
+      "artifact": "OCPP-2.0.1_edition4_part1_architecture_topology.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-P2-TLS",
+      "source": "OCPP 2.0.1 Edition 4 Part 2",
+      "edition": "2025-12-03",
+      "locator": "Security §1.3; A00.FR.306–314 PDF31 / printed21; A00.FR.401–403 PDF33 / printed23; A00.FR.409–420 PDF34 / printed24",
+      "scope": "P2/P3 TLS and authentication baseline on the Charging Station–CSMS OCPP session. A00.FR.313/.416 require TLS 1.2 or above. TLS1.3-only is optional deployment hardening; session controls do not automatically apply to a different hop.",
+      "artifact": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-DOWNGRADE",
+      "source": "OCPP 2.0.1 Edition 4 Part 2 and Appendices v1.5",
+      "edition": "2025-12-03",
+      "locator": "Part2 §1.3.1 A00.FR.005 PDF28 / printed18; Appendix §3.1.15 SecurityCtrlr PDF13 / printed11; variable list PDF37 / printed35",
+      "scope": "P2/P3 to P1 through OCPP is already forbidden. P3 to P2 is conditional on implemented AllowSecurityProfileDowngrade=true. Proposed no-P3-to-P2 is a deployment choice stricter than that allowed transition, not invention of baseline downgrade protection.",
+      "artifact": "Part2 and OCPP-2.0.1_edition4_part2_appendices_v15.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-RECOVERY",
+      "source": "OCPP 2.0.1 Edition 4 Part 2",
+      "edition": "2025-12-03",
+      "locator": "A00.FR.407–408; PDF p.34 / printed p.24; A00.FR.429–430; PDF p.36 / printed p.26",
+      "scope": "Under A00.FR.407, if .429 does not apply and the station has no valid certificate or its certification path is invalid, the CSMS shall terminate the connection. A00.FR.408 recommends logging InvalidChargingStationCertificate when .407 or .429 applies. Under .429, a CSMS explicitly configured for a specific expired-certificate station may admit BootNotification Pending and shall immediately initiate A02 renewal. Under .430, an expired-certificate station should attempt connection. No P2 recovery requirement or universal P3-only recovery rule follows.",
+      "artifact": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-P2-K-PROFILES",
+      "source": "OCPP 2.0.1 Edition 4 Part 2",
+      "edition": "2025-12-03",
+      "locator": "K §3.2; PDF p.251 / printed p.241; K §3.4–3.5; PDF p.252 / printed p.242",
+      "scope": "Within the applicable OCPP smart-charging configuration, TxProfile takes precedence over TxDefaultProfile for its transaction or earlier expiry. External limits are represented as ChargingStationExternalConstraints. Valid highest-stack profiles per purpose and compatible units enter the composite limit. These existing rules are not introduced by A2.",
+      "artifact": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-P2-K-ROLES",
+      "source": "OCPP 2.0.1 Edition 4 Part 2",
+      "edition": "2025-12-03",
+      "locator": "K §4 Table 93 SC.01; PDF p.256 / printed p.246; K01.FR.22; PDF p.259 / printed p.249",
+      "scope": "SC.01 requires the actual limit from merging external schedules and each purpose’s highest-stack OCPP profile to be no greater than the lowest merged available power/current. K01.FR.22 prohibits CSMS from setting ChargingStationExternalConstraints as the purpose in SetChargingProfileRequest. These rules apply in their specified OCPP scope, not automatically to every non-OCPP EMS.",
+      "artifact": "OCPP-2.0.1_edition4_part2_specification.pdf",
+      "source_type": "Primary specification",
+      "url": "https://openchargealliance.org/protocols/open-charge-point-protocol/#OCPP2.0.1"
+    },
+    {
+      "id": "S-A3-ASSUMPTION",
+      "source": "Hypothetical station-local software boundary",
+      "edition": "Study design assumption",
+      "locator": "Manuscript §4.4 (A3)",
+      "scope": "Assume separately identifiable SECC and OCPP-processing modules with an observable and controllable IPC boundary. No actual charger implementation evidence is available. The local IPC boundary is distinct from a remote SECC–CSMS communication relation. This assumption is not a standardized topology or an observed product architecture.",
+      "artifact": "Accompanying manuscript, A3 design specification",
+      "source_type": "Explicit design assumption",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "purpose": "Reference-frame generation only; candidate pairings are not asserted network adjacencies or security classifications.",
+  "groups": {
+    "CrossZone": [
+      "PKI",
+      "Wireless"
+    ],
+    "Z1": [
+      "EV-Internal",
+      "EVCC"
+    ],
+    "Z2": [
+      "SECC",
+      "EVSE/CS",
+      "EVSE-Internal"
+    ],
+    "Z3": [
+      "CSMS",
+      "eMSP/External"
+    ],
+    "Z4": [
+      "Utility/Grid"
+    ]
+  },
+  "rule": "Unordered pairs between entities in different groups.",
+  "entity_count": 10,
+  "screening_pair_count": 39,
+  "limits": "A3 internal OCPP-processing role is not a remote CSMS endpoint. Wireless denotes an access conduit. Product-specific adjacency and software boundaries require separate evidence."
+}
